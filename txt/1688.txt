@@ -1,0 +1,18 @@
+
+'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+'Accept-Encoding': 'gzip, deflate, br',
+'Accept-Language': 'zh-CN,zh;q=0.9',
+'Cache-Control': 'max-age=0',
+'Connection': 'keep-alive',
+'Cookie': 'cna=8FmVF+VBJxgCAd7RUm5VHyu7; cookie2=11baad53f0e72b068205987923f6a275; t=2860081a67b697359e9c35a3d908fa6f; _tb_token_=ee8d7fe63eee3; __cn_logon__=false; UM_distinctid=173554c31e71ad-02843fe713af65-b7a1334-1fa400-173554c31e81fa; taklid=32db1f161ce34650a48000ae5bc0e578; _csrf_token=1594863925709; CNZZDATA1253659577=289555298-1594862669-https%253A%252F%252Fp4psearch.1688.com%252F%7C1594892306; JSESSIONID=9637693D3CF542C4BEE9B0902A7BEA6E; l=eBOTngjROLe3xU0LBOfwourza77OjIRAguPzaNbMiOCPOBX65ZRfWZkxmnKBCnGVhsCJR3oIr-vXBeYBql01b0I4PxMDzUkmn; isg=BK2tb3bLjhzog2rv7kUL7ScMvEknCuHcOyQFDu-y5sSzZs0Yt1k6rPK8VDqAZvmU; alicnweb=touch_tb_at%3D1594897263268',
+'Host': 'detail.1688.com',
+'Sec-Fetch-Dest': 'document',
+'Sec-Fetch-Mode': 'navigate',
+'Sec-Fetch-Site': 'none',
+'Sec-Fetch-User': '?1',
+'Upgrade-Insecure-Requests': '1',
+'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+
+
+
+https://dj.1688.com/ci_bb?a=1923980011&e=lAG-AAzlwOsUaTpZjJ16uzysGfgiPdCGznc8lxNj34GE78gq37QZz7eqnGWUmWh03sLDFALx9QABiYu8uNqj7k.-mXVYZTkKC7pweePwvxXJAH5D-y.1.M-1omwCs9MWgXfCUV5fJOxZ6es5M-yIyVaw3u9tLWLbFlxvFroRca9CsIEq-t2YAMtylY7adRJU92kC.yZpBxYFPyAkdnylcUMq.ggBO7XRpyfFgQ8t4UK.0UDzTsXJfHl7Aa3Rd2LkmIQiN8IbVBtlqp6imHFZz7kwGSM7MSgNatSNuO-NIOhKVSNkrfZBGvc.K7fFYeVx0KdzQaamASVUap55vQnE5wDxwQK7xHkWtNVNc1n-XvQaoi8grnABg9GaCVc1R9.HAOhct7foY3gYgD77GCHAmDRB9KM5s2KMQYGe8pIMTqohKU-YPJDEWWzAk9ihFiPwXwA.Hww2n.nwfA99vOkKs0W54NXOZfuvgSKh2sNZe-A1X2uKEjae9qyaAnneA.iMDzMFIxs1UOXZcfSg3p3TqDyLVIw-5GvoWhkQpsRtBd-ye25DwrYmRvGE1nJsIVnCHwFYwLc4ly.g0s9QMP8cgBpGplGkrJdvXwb0xRqAgcbVCF0B-JlP9p85k58lLB4qHrGBttlA-pG4UQ5biM9wot64Ks1SvawoBrEpp4jjxwtgmfioW7dCyXNAs7QxXVlkEmTHb4dNh1rcQTVhvKYroZFm.8NNSEzvYQ.xfgFFYAbfvsCf.Sl-nnYMvgv4QKDD3wR.09cpujKnN.dwDI98HFxcI4wDFOSnIcIqxH9pgAzUHeYnIZ5BlhtpAfbejhLaCCGsCHTxYJy.-UTr62SkpQ3tCCyo0-vpCiA8m27oNwmSlzoZfuYothm5Ye9rmOUJIDZKaZk-8tom0OoyuyCKBe6.xgZeviNJ&v=4&ap=1&rp=1

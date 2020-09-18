@@ -1,0 +1,19 @@
+
+'pk_index_flag_date': '2020-06-19',
+'sortFieldName': 'update_time',
+'curPage': '1',
+'limit': '10',
+'analy_status': '1',
+'domain_type_multi': '星座',
+'boolean_person_authentication': 'false',
+'boolean_blue_v': 'false',
+'boolean_goods_upboard': 'false',
+'boolean_mobile': 'false',
+'listType': '日榜',
+'auth_flag': 'aaa',
+'lgCustomerId': '1002083069',
+'token': 'TEf6EMxqLTxtw0MKc4h7KqKP0r3TUTiINDY6cavXLqDvbAa3H6d2IaCZ4+CxPmPVlI7aYHom4EeLT063dj7rIiRSNv4/0nn7oQtvT2dZdzcNGDCIkN0lA3X83pj1GGy50k7iCkyZF3L/yX1ZJmCeL8AAyNaDIZeFeRKj5N9AwmTjbJ3akGlivOqFmCno1NP1Jg0yG6GcaYRT9RYCaLuAaaUjuSN7redl5XyOEZAhKtH4lbsvWcGLQf89vMxS70MsIx8R9AoxM+KPp2DQZ6ktC2DGPpBdrZbib2Q949c0amqwWSqN/cJ8e7azoqcFm6LVj8/ilQpRis8c6byp2kcOOivxuoNz42nBIe+zfxto+3A=|1592550249853',
+'identity': '7',
+
+
+{'auth_flag': None, 'lgCustomerId': None, 'token': None, 'limit': 10, 'curPage': 1, 'sortFieldName': None, 'listType': None, 'beginNum': 0, 'pk_index_flag_date': '2020-06-19', 'pk_account': '101344198709', 'dy_id': '1127365119', 'index_flag_lgzs': 5307, 'index_flag_xrzs': 91, 'index_flag_cbzs': 946, 'index_flag_bszs': 0, 'domain_type': '星座', 'province': '上海', 'city': '上海', 'gender': '女', 'age': 44, 'boolean_person_authentication': False, 'boolean_blue_v': True, 'boolean_goods_upboard': False, 'boolean_mobile': True, 'female_scale': 8113, 'age_section': '17-24岁', 'funs_province': '[{"name":"广西壮族自治区","count":16,"percent":1777},{"name":"湖北省","count":10,"percent":1111},{"name":"陕西省","count":9,"percent":1000},{"name":"贵州省","count":9,"percent":1000},{"name":"山西省","count":9,"percent":1000},{"name":"河南省","count":9,"percent":1000},{"name":"天津市","count":8,"percent":888},{"name":"新疆维吾尔自治区","count":1,"percent":111},{"name":"重庆市","count":1,"percent":111},{"name":"上海市","count":1,"percent":111},{"name":"湖南省","count":1,"percent":111}]', 'funs_city': '[{"name":"香港市","count":9,"percent":1000},{"name":"西安市","count":9,"percent":1000},{"name":"遵义市","count":8,"percent":888},{"name":"玉林市","count":8,"percent":888},{"name":"黄石市","count":8,"percent":888},{"name":"晋城市","count":8,"percent":888},{"name":"三门峡市","count":8,"percent":888},{"name":"桂林市","count":8,"percent":888},{"name":"天津市","count":8,"percent":888},{"name":"贵阳市","count":1,"percent":111},{"name":"恩施土家族苗族自治州","count":1,"percent":111},{"name":"洛阳市","count":1,"percent":111},{"name":"上海市","count":1,"percent":111},{"name":"常德市","count":1,"percent":111},{"name":"乌鲁木齐市","count":1,"percent":111},{"name":"吕梁市","count":1,"percent":111},{"name":"武汉市","count":1,"percent":111}]', 'mobile': '', 'nickname': '星座~恋人', 'logo': 'https://p3-dy.byteimg.com/aweme/720x720/adbf0019e95157022640.jpeg?from=4010531038', 'child_domain': '星座', 'signature': '用心做事：v❤️1920357726\n友情提示：屏幕滚动的快可以点暂停哦', 'funs_total': 222240, 'funs_increase_yesterday': -31, 'video_total': 9, 'favorited_total': 1005564, 'favorited_increase_yesterday': -70, 'total_comment': 92605, 'total_forward': 213, 'forward_increase_yesterday': 0, 'funs_change_3': -160, 'video_change_3': 0, 'favorited_change_3': -283, 'up_down_spread': 'down', 'up_down_new': 'up', 'up_down_funs': 'down', 'create_time': 1592552971689, 'update_time': 1592552971689, 'goods_num_total': 0, 'sales_total': 0, 'index_flag_lgzs_yxl': 2280, 'index_flag_lgzs_qlz': 9, 'index_flag_lgzs_wdz': 22, 'index_flag_lgzs_qhd': 970, 'index_flag_lgzs_grl': 2037, 'beat_domain_percent': 0, 'word_frequency': '', 'last_public_time': 1536761813000, 'age_section_json': '[{"name":"num_30_35","count":0,"percent":0},{"name":"num_17_24","count":18,"percent":2000},{"name":"num_7_17","count":11,"percent":1222},{"name":"num_35_40","count":0,"percent":0},{"name":"num_40_up","count":16,"percent":1777},{"name":"num_24_30","count":8,"percent":888}]', 'mongodb_user_sid': '5be4f8bd3324901d5143452a', 'analy_status': 1}

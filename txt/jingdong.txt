@@ -1,0 +1,15 @@
+'skuId': '100009082466',
+'area': '22_1930_50945_0',
+'venderId': '1000004123',
+'buyNum': '1',
+'choseSuitSkuIds': '',
+'cat': '9987,653,655',
+'extraParam': '{"originid":"1"}',
+'fqsp': '0',
+'pdpin': '',
+'pduid': '1737556876',
+'ch': '1',
+'callback': 'jQuery7615318',
+
+
+100008348532

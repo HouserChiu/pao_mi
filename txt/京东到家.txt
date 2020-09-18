@@ -1,0 +1,63 @@
+androidId 5e5e2620622f1cac
+Paidaojia
+7.7.0
+{"city":"成都市","latitude":30.64857,"longitude":104.08359,"address":"西部国际金融中心","coordType":"2","channelId":"4038","appVersion":"7.7.0","platform":"2","currentPage":1,"pageSize":10,"areaCode":1930,"ref":"home","ctp":"channel"}
+360
+baidu
+1930
+deviceId aa512bcb10cbe3f9ce0885eefe758de1
+1605-A01
+deviceId aa512bcb10cbe3f9ce0885eefe758de1
+360
+imei 862490032087769
+30.64857
+30.64857
+104.08359
+104.08359
+WIFI
+baidu
+android
+7.1.1
+西部国际金融中心
+1080*1920
+signKey 4039f1736f251c5b41a900e27a300183
+7.7.0.2
+1597052396463
+traceId aa512bcb10cbe3f9ce0885eefe758de115970497841931597052396454
+
+
+
+'deviceId': 'aa512bcb10cbe3f9ce0885eefe758de1',
+'city_id': '1930',
+'signKeyV1': 'df6af1e6ba38b78583d0253f9cfdc8c7e0d2a307e173dce58c62908a784c6e3b',
+'screen': '1080*1920',
+'signKey': '4039f1736f251c5b41a900e27a300183',
+'androidId': '5e5e2620622f1cac',
+'deviceToken': 'aa512bcb10cbe3f9ce0885eefe758de1',
+'t': '1597052396463',
+'appVersion': '7.7.0',
+'imei': '862490032087769',
+'traceId': 'aa512bcb10cbe3f9ce0885eefe758de115970497841931597052396454',
+'deviceModel': '1605-A01',
+'poi': '%E8%A5%BF%E9%83%A8%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83',
+'lng_pos': '104.08359',
+'channel': 'baidu',
+'networkType': 'WIFI',
+'functionId': 'zone%2FrecommendStoreList',
+'devideModel': '360',
+'body': '%7B%22city%22%3A%22%E6%88%90%E9%83%BD%E5%B8%82%22%2C%22latitude%22%3A30.64857%2C%22longitude%22%3A104.08359%2C%22address%22%3A%22%E8%A5%BF%E9%83%A8%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%22%2C%22coordType%22%3A%222%22%2C%22channelId%22%3A%224038%22%2C%22appVersion%22%3A%227.7.0%22%2C%22platform%22%3A%222%22%2C%22currentPage%22%3A1%2C%22pageSize%22%3A10%2C%22areaCode%22%3A1930%2C%22ref%22%3A%22home%22%2C%22ctp%22%3A%22channel%22%7D',
+'appName': 'Paidaojia',
+'lng': '104.08359',
+'platVersion': '7.1.1',
+'brand': '360',
+'subVersion': '7.7.0.2',
+'partner': 'baidu',
+'lat': '30.64857',
+'platCode': 'android',
+'lat_pos': '30.64857',
+
+{"city":"成都市","latitude":30.64857,"longitude":104.08359,"address":"西部国际金融中心","coordType":"2","channelId":"4038","appVersion":"7.7.0","platform":"2","currentPage":1,"pageSize":10,"areaCode":1930,"ref":"home","ctp":"channel"}923047ae3f8d11d8b19aeb9f3d1bc002
+
+
+{"city":"成都市","latitude":30.64857,"longitude":104.08359,"address":"西部国际金融中心","coordType":"2","channelId":"4038","appVersion":"7.7.0","platform":"2","currentPage":1,"pageSize":10,"areaCode":1930,"ref":"home","ctp":"channel"}
+

@@ -1,0 +1,2237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta name="csrf-param" content="_csrf-frontend">
+    <meta name="csrf-token" content="WWNvb1MwcWI9NSUlPgI7GmACHlwBYCcHHlEdNyp2EAUMNTtWY3gjDQ==">
+    <title>观察者网账号详情 - 清博指数</title>
+    <link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/css/base.css" rel="stylesheet">
+    <link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/css/plugins/perfectScrollbar/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/css/plugins/chosen/chosen.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/city/jquery.city.bootstrap.css" />
+    <link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/css/style.css" rel="stylesheet">
+    <link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/css/wx-detail.css" rel="stylesheet">
+
+    <script src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/jquery-1.11.1.min.js"></script>
+    <script src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/js/jquery.cookie.js"></script>
+    <script src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/bootstrap.min.js"></script>
+    <script src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/common.js"></script>
+    <script src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/city/jquery.city.js"></script>
+    <script src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script type="text/javascript" src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script type="text/javascript" src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/plugins/tinyscrollbar/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript" src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/plugins/tinyscrollbar/website.js"></script>
+    <!--引入公共头部文件-->
+    <!--<link href="/public-header/css/publicHeader.css" rel="stylesheet">
+    <script src="/public-header/js/publicHeader.js"></script>-->
+    <!--引入账号中心js插件-->
+    <script src="https://u1.gsdata.cn/themes/default/js/publicMember.js"></script>
+    <script>
+        $(function(){
+            $(document).publicSetLog({
+                login_from:0
+            });
+        })
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?293b2731d4897253b117bb45d9bb7023";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    <style>
+        .chux51 .close{position: absolute;
+            right: 80px;
+            top: -2px;
+            color: #fdf5ea;
+            text-shadow: 0 1px 0 #fdf5ea;
+            opacity: 1;
+            font-size: 25px;}
+        .chux51-c{position:fixed;width:auto;margin:10px auto;left:0;right:0;top:70%;width:800px;margin-top: -272px;z-index: 10000;}
+    </style>
+    <meta name='description' content='清博指数会快速收录观察者网微信公众号的最新热门文章，同时通过观察者网微信公众号的大数据，进行合理的分析并对公众号和文章进行排名。'/></head>
+<body>
+
+<!--顶部-->
+<div class="header">
+    <div class="head head-public">
+        <!--<script>
+            $(function(){
+                $(document).publicHeader({
+                    className:'.head-public'
+                });
+            })
+        </script>-->
+        <div class="nav fl">
+            <ul>
+                <li><a class="a-one" href="/">首页</a></li>
+                <li>
+                    <a class="a-one nav-menu-warp" target="_blank" href="/rank/wxrank">榜单<i class="icons"></i><span class="arrow-top"></span></a>
+                    <!-- 影藏的榜单导航 -->
+                    <div class="nav-menu bd">
+                        <div class="items-wrapper clearfix">
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="/rank/wxrank">
+                                    <i class="logo-icons wx-logo"></i>
+                                    <span class="name">微信榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/rank/wbrank">
+                                    <i class="logo-icons wb-logo"></i>
+                                    <span class="name">微博榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/rank/toutiao">
+                                    <i class="logo-icons tt-logo"></i>
+                                    <span class="name">头条榜单</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <!--<a class="nav-menu-a" target="_blank" href="">
+                                    <i class="logo-icons bjzw-logo1"></i>
+                                    <span class="name">政务百家号榜</span>
+                                </a>-->
+                                <a class="nav-menu-a" target="_blank" href="/rank/douyin">
+                                    <i class="logo-icons dysp-logo"></i>
+                                    <span class="name">抖音榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/rank/kuaishou">
+                                    <i class="logo-icons kssp-logo"></i>
+                                    <span class="name">快手视频榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/rank/qqrank">
+                                    <i class="logo-icons qq-logo1"></i>
+                                    <span class="name">QQ榜单</span>
+                                </a>
+                                <!--<a class="nav-menu-a" target="_blank" href="">
+                                    <i class="logo-icons wh-logo"></i>
+                                    <span class="name">网红榜单</span>
+                                </a>-->
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="/rank/morerank?v_type=bilibili">
+                                    <i class="logo-icons bilibili-logo1"></i>
+                                    <span class="name">B站视频榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/rank/morerank?v_type=vqq">
+                                    <i class="logo-icons vqq-logo1"></i>
+                                    <span class="name">腾讯视频榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/rank/morerank?v_type=pearvideo">
+                                    <i class="logo-icons pearvideo-logo1"></i>
+                                    <span class="name">梨视频榜单</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <!--<a class="nav-menu-a" target="_blank" href="">
+                                    <i class="logo-icons youku-logo1"></i>
+                                    <span class="name">优酷视频榜单</span>
+                                </a>-->
+                                <!--<a class="nav-menu-a" target="_blank" href="">
+                                    <i class="logo-icons iqiyi-logo1"></i>
+                                    <span class="name">爱奇艺视频榜</span>
+                                </a>-->
+                                <a class="nav-menu-a" target="_blank" href="/rank/morerank?v_type=meipai">
+                                    <i class="logo-icons meipai-logo1"></i>
+                                    <span class="name">美拍视频榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/rank/morerank?v_type=ixigua">
+                                    <i class="logo-icons ixigua-logo1"></i>
+                                    <span class="name">西瓜视频榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/cooperate/medialist">
+                                    <i class="logo-icons bd-logo1"></i>
+                                    <span class="name">媒体合作榜单</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="/cooperate/govlist">
+                                    <i class="logo-icons bd-logo2"></i>
+                                    <span class="name">政务合作榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/cooperate/universitylist">
+                                    <i class="logo-icons gxhz-logo"></i>
+                                    <span class="name">高校合作榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/custom/wxrank">
+                                    <i class="logo-icons zdy-logo"></i>
+                                    <span class="name">自定义榜单</span>
+                                </a>
+
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="/rank/wxvideorank">
+                                    <i class="logo-icons wxsph-logo"></i>
+                                    <span class="name">微信视频号榜单</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/rank/companyrank">
+                                    <i class="logo-icons qywl-logo"></i>
+                                    <span class="name">企业网络影响力指数</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--<li><a class="a-one" target="_blank" href="http://guanjia.gsdata.cn/">管家</a></li>-->
+                <li><a class="a-one" target="_blank" href="http://yq.gsdata.cn/">舆情</a></li>
+                <li>
+                    <a class="a-one nav-menu-warp" target="_blank" href="http://home.gsdata.cn/">官网<i class="icons"></i><span class="arrow-top"></span></a>
+                    <!-- 影藏的工具导航 -->
+                    <div class="nav-menu gw">
+                        <div class="items-wrapper clearfix">
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="http://shaanxi.gsdata.cn/">
+                                    <span class="name">清博陕西</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="http://tianjin.gsdata.cn/">
+                                    <span class="name">清博天津</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="http://guoyou.gsdata.cn/">
+                                    <span class="name">国邮清博</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--<li><a class="a-one" target="_blank" href="http://ads.gsdata.cn/">广告</a></li>-->
+                <li>
+                    <a class="a-one nav-menu-warp" target="_blank" href="/tool/index">产品中心<i class="icons"></i><span class="arrow-top"></span></a>
+                    <!-- 影藏的工具导航 -->
+                    <div class="nav-menu gj">
+                        <div class="items-wrapper clearfix">
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="/tool/valindex">
+                                    <i class="logo-icons gj-logo1"></i>
+                                    <span class="name">公众号估值</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/tool/ygfsindex">
+                                    <i class="logo-icons gj-logo2"></i>
+                                    <span class="name">活跃粉丝预估</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <!--<a class="nav-menu-a" target="_blank" href="">
+                                    <i class="logo-icons gj-logo4"></i>
+                                    <span class="name">微信数据监测</span>
+                                </a>-->
+                                <a class="nav-menu-a" target="_blank" href="/tool/videoreadnum">
+                                    <i class="logo-icons gj-logo19"></i>
+                                    <span class="name">视频数据监测</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/tool/kpi">
+                                    <i class="logo-icons kpi-logo"></i>
+                                    <span class="name">公众号考核</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="/recall/recall">
+                                    <i class="logo-icons gj-logo3"></i>
+                                    <span class="name">公众号回溯</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/recall/list">
+                                    <i class="logo-icons gj-logo5"></i>
+                                    <span class="name">微信数据大屏</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="/tool/editor">
+                                    <i class="logo-icons gj-logo18"></i>
+                                    <span class="name">新媒体编辑器</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/tool/hot">
+                                    <i class="logo-icons gj-logo6"></i>
+                                    <span class="name">明日头条</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="/tool/wxsearch">
+                                    <i class="logo-icons gj-logo10"></i>
+                                    <span class="name">公众号信息采集</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/tool/arcsearch">
+                                    <i class="logo-icons gj-logo9"></i>
+                                    <span class="name">微信文章采集</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="/recall/wbrecall">
+                                    <i class="logo-icons gj-logo15"></i>
+                                    <span class="name">微博号回溯</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="/recall/ttrecall">
+                                    <i class="logo-icons gj-logo14"></i>
+                                    <span class="name">头条号回溯</span>
+                                </a>
+                            </div>
+                            <!--<div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="">
+                                    <i class="logo-icons gj-logo8"></i>
+                                    <span class="name">微信推广量查询</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank" href="">
+                                    <i class="logo-icons gj-logo11"></i>
+                                    <span class="name">网页提及量查询</span>
+                                </a>
+                            </div>-->
+                            <div class="item clearfix">
+                                <a class="nav-menu-a"  target="_blank" href="http://hao.gsdata.cn">
+                                    <i class="logo-icons gj-logo13"></i>
+                                    <span class="name">舆情网址导航</span>
+                                </a>
+                                <a class="nav-menu-a" target="_blank"  href="http://hao.gsdata.cn/xmt/">
+                                    <i class="logo-icons gj-logo16"></i>
+                                    <span class="name">新媒体网址导航</span>
+                                </a>
+                            </div>
+                            <div class="item clearfix">
+                                <a class="nav-menu-a" target="_blank" href="http://hao.gsdata.cn/dsj/">
+                                    <i class="logo-icons gj-logo17"></i>
+                                    <span class="name">大数据网址导航</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a class="a-one" target="_blank" href="/help">帮助</a></li>
+                <li><a class="a-one" target="_blank" href="/pd/nmo">新媒体运营师培训<i class="icons2 icon-hot"></i></a></li>
+            </ul>
+        </div>
+                <div class="useinfo-login fr ">
+            <a class="bell-a fl bell-ah" target="_blank" href="https://u1.gsdata.cn/user/msglist">
+                <i class="icons"></i>
+                <span class="sign"></span>            </a>
+            <a class="headPay-a fl" target="_blank" href="https://u1.gsdata.cn/user/pay">
+                <i class="icons icons-headPay"></i>
+            </a>
+                            <div class="xinxi-tips">
+                    <h1>系统消息：</h1>
+                    <a class="color-gray" target="_blank" href="https://u1.gsdata.cn/user/msgdetail?id=85892"><p>高效率低成本：清博“轻融媒”方案助力融媒技术应用落地在当下的信息...</a></p>
+                    <p>2020-06-02 18:09 <a class="color-blue fr" href="javascript:void(0);" onclick="closeXinxiTips();">关闭</p></a>
+                </div>
+                        <div class="title-name fl"><i class="icons1 icon1-vip1"></i><a class="cr27" target="_blank" href="/user/limit">普通用户</a></div>
+
+            <div class="useWarp fl">
+                <div class="dropdown-toggle">
+
+                    <div class="" >
+                        <div class="img fl">
+
+                    <a target="_blank" href="https://u1.gsdata.cn/user/index"><img src="http://oss.aliyuncs.com/gsdata-img1/qingbo-icon-produce/17726454236.jpeg" onerror="javascript:this.src='http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/images/user-img.png'"/></a></div>
+                        <i class="icons"></i>
+                    </div>
+                    <ul class="down-menu">
+                        <li><a class="color-blue tdhidden" target="_blank" href="https://u1.gsdata.cn/user/index">
+                        houser_chiu                        </a></li>
+                        <li class="divline"></li>
+                        <li><a target="_blank" href="https://u1.gsdata.cn/user/index">账号中心</a></li>
+                        <li><a target="_blank" href="/user/myrights">我的会员</a></li>
+                        <li><a target="_blank" href="/user/myoauth">我的授权</a></li>
+                        <li><a target="_blank" href="/custom/myrank">我的榜单</a></li>
+                        <li><a target="_blank" href="/user/downlist">导出记录</a></li>
+                        <li><a target="_blank" href="/user/mycollect">我的收藏</a></li>
+                        <!--
+                            <li><a target="_blank" href="">邀请有礼</a><i class="icons icons-invite"></i></li>
+                        -->                        <li><a target="_blank" href="/member/logout">退出登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            </div>
+</div>
+<div class="header-after">
+    <div class="head">
+                                    <a class="fr signIn" target="_blank" href="https://u1.gsdata.cn//task/detail?id=8 "><img src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/images/active/invite_entrance.png"></a>
+                                <div class="logo fl"><a href="/"><img class="img_logo" src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/images/logo.png"/></a></div>
+
+        <div class="input-group fl" style="">
+            <input type="text" id="search_input" value="" class="form-control fl no" placeholder="新媒体搜索引擎，你想要的都在这里">
+            <button class="btn no btn-default fl search_wx" type="button">找公众号</button>
+            <button class="btn btn-border fl search_arc" type="button">搜文章</button>
+        </div>
+    </div>
+</div>
+<!--end of 顶部-->
+    <!--2019-09-25 要求去掉-->
+<!-- 漂浮挂件 -->
+<!--<div class="new-bdsharebuttonbox">
+    <a class="share-a clearfix" href="javascript:void(0);">
+			<span class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" data="{'text':'分享自清博指数','url':'','pic':'/images/logo.png'}">
+				<span class="bds_more"></span>
+			</span>
+        <i class="icons"></i>
+        <span>分享</span>
+    </a>
+    <a class="in-the-list-a clearfix" href="" onclick="joinWeixinList();">
+        <i class="icons"></i>
+        <span>入库</span>
+    </a>
+    <a target="_blank" class="consult-a clearfix" href="http://home.gsdata.cn/cooperation.html">
+        <i class="icons"></i>
+        <span>咨询</span>
+    </a>
+    <a target="_blank" class="feedback-a clearfix" href="/help/index#fanKui">
+        <i class="icons"></i>
+        <span>反馈</span>
+    </a>
+    <a class="top-a hide clearfix" id="backTop" href="javascript:void(0);">
+        <i class="icons"></i>
+        <span>Top</span>
+    </a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);</script>
+--><script type="text/html" class="hide" id="rankgo">
+    <div class="form-warp">
+        <div class="form-group">
+            wx_info
+            <!--<input type="text" id="history_url" class="form-control hidden" placeholder="公众号历史文章链接">-->
+        </div>
+        <div class="form-inline mr">
+            <div class="form-group">
+                <span class="control-label">分类：</span>
+                <div class="btn-group dropdown">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="word" id="types_rg">全部</span> <span class="caret"></span>
+                    </button>
+                    <ul id="select-typs" class="dropdown-menu more">
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="政务">政务</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="时事">时事</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="文化">文化</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="生活">生活</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="健康">健康</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="美食">美食</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="时尚">时尚</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="旅行">旅行</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="母婴">母婴</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="科技">科技</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="创业">创业</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="职场">职场</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="娱乐">娱乐</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="搞笑">搞笑</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="动漫">动漫</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="游戏">游戏</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="体育">体育</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="汽车">汽车</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="金融">金融</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="房产">房产</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="教育">教育</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="民生">民生</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="企业">企业</a>
+                            </li>
+                                                    <li><a href="javascript:void(0);"
+                                   data-value="其他">其他</a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="form-group">
+                <span class="control-label">地区：</span>
+                <div class="btn-group city-text">
+                    <input name="city" readonly class="form-control" id="fromcity_rango"  type="text"  placeholder="选择城市"/><i class="icons"></i>
+                    <input type="hidden" id="fromcity_rango_hidden" value=""/>
+                </div>
+            </div>
+        </div><br>
+        <div id="rankGoModalTip" style="text-align: center;height:30px;padding: 5px;display:none"></div>
+    </div>
+</script>
+
+
+<script>
+    //加入微信榜单
+    function joinWeixinList(wxname,nickname,wx_biz,wxlogo) {
+        $("#modalClose").click();
+                 var html = $("#rankgo").html();
+        if(wxname && nickname){
+            var h1 = '';
+                h1 += '<div class="img-word">'
+                   +    '<div class="img" style="background:url('+wxlogo+') -0px -0px no-repeat;background-size:100%;">'
+                +'</div>'
+                +'<div class="word">'
+                +'<h1>'+nickname+'</h1>'
+                +'<span class="">'+wxname+'</span>'
+                +'</div>'
+                +'</div>';
+            html = html.replace(/wx_info/, h1)
+
+        }else{
+            html = html.replace(/wx_info/,'<input type="text" id="history_url" class="form-control" placeholder="公众号单篇文章历史链接">')
+        }
+
+        $(document).modalll({
+            title: "加入微信榜单",
+            width: 500,
+            content: html,
+            close: "关闭",
+            enter: "提交加入",
+            callback: function () {
+                if(!wxname && !nickname) {
+                    var history_url = $('#history_url').val();
+                    if(history_url == ""){
+                        showModalTip($('.form-warp #rankGoModalTip'), 'alert-danger', '请填写公众号单篇文章历史链接');
+                        return;
+                    }
+                    var Expression=/http(s)?:\/\/.*?/;
+                    var objExp=new RegExp(Expression);
+                    if(objExp.test(history_url)==false){
+                        showModalTip($('.form-warp #rankGoModalTip'), 'alert-danger', '填写公众号单篇文章历史链接格式不正确！');
+                        return;
+                    }
+                }
+                var types = $('#types_rg').html();
+                var industry = $("#fromcity_rango_hidden").val();
+                var arr = industry.split('-');
+
+                if(types == '全部'){
+                    showModalTip($('.form-warp #rankGoModalTip'), 'alert-danger', '请选择分类信息');
+                    return;
+                }
+                if(arr[0] == ''){
+                    showModalTip($('.form-warp #rankGoModalTip'), 'alert-danger', '请选择地域信息');
+                    return;
+                }
+                var province = arr[0];
+                if(arr[1] == undefined){
+                    var city = arr[0];
+                }else{
+                    var city = arr[1];
+                }
+
+                if(wxname && nickname){
+                    var ajaxData = {wxname:wxname,types:types,province:province,city:city,wx_biz:wx_biz}
+                }else{
+                    var ajaxData = {history_url:history_url,types:types,province:province,city:city}
+                }
+                $.ajax({
+                    url:'/rank/rankgo',
+                    type:'post',
+                    dataType:'json',
+                    data:ajaxData,
+                    success:function(res){
+                        if(res.error == 0){
+                            showModalTip($('.form-warp #rankGoModalTip'),"alert-success", "提交加入榜单成功");
+                            location.href = '/rank/wxrank';
+                        }else if(res.error_msg == '公众号已存在'){
+                            showModalTip($('.form-warp #rankGoModalTip'),"alert-danger", '该账号已被提交入库，不能重复提交！');
+                        }else{
+                            showModalTip($('.form-warp #rankGoModalTip'),"alert-danger", res.error_msg);
+                        }
+                    },error:function(){
+                        console.log('error');
+                    }
+                });
+
+            }
+        });
+
+        $('#fromcity_rango').jcity({
+            urlOrData: 'http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/city/citydata.json',
+            animate: { showClass: 'animated flipInX', hideClass: 'animated flipOutX' },
+            onChoice: function (data) {
+                $("#fromcity_rango_hidden").val(data.realName);
+            }
+        });
+    }
+</script><script id="zdyBangdan" class="hide" type="text/html">
+    <div class="form-warp clearfix max400">
+                                <div class="checkbox">
+                <label class="tdhidden">
+                    <span style="margin-left: 30px;">您还没有创建自定义榜单</span>
+                </label>
+            </div>
+                        </div>
+    <br>
+    <div  class="alert-danger wxModalTip" style="text-align: center;height:30px;padding: 5px;display: none">
+        请选择分组
+    </div>
+
+
+</script>
+<script src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/plugins/iCheck/icheck.min.js"></script>
+<script>
+    //加入微信榜单
+    function zdyList(nickname_id){
+        if(typeof is_guest!="undefined" && is_guest==1){
+            location.href='/member/login';
+            return false;
+        }
+        var html = $("#zdyBangdan").html();
+        var html1 = '<button type="button" class="btn btn-white" onclick="add_group();">新建榜单</button>';
+        $(document).modalll({
+            title : "我的榜单列表",
+            width : 550,
+            content : html,
+            closeHide : true,
+            enter : "确认",
+            callback:function(){
+                var gid = $("input[type='radio']:checked").val();
+                if(!gid){
+                    showModalTip($('.wxModalTip'), 'alert-danger', '没有分组被选中');
+                    return false;
+                }
+                if(!nickname_id){
+                    showModalTip($('.wxModalTip'), 'alert-danger', '没有公众号被选中');
+                    return false;
+                }
+
+                $.ajax({
+                    url:'/rank/ajax_wxsearchadd',
+                    type:'post',
+                    dataType:'json',
+                    data:{gid:gid,nickname_id:nickname_id},
+                    success:function(res){
+                        if(res.error == 0){
+                            showModalTip($('.wxModalTip'),"alert-success", "提交加入榜单成功");
+                            setTimeout(function () {
+                                $("#modalClose").click();
+                            }, 1000);
+                        }else{
+                            showModalTip($('.wxModalTip'),"alert-danger", res.error_msg);
+                        }
+                    },error:function(){
+                        console.log('error');
+                    }
+                });
+            }
+        });
+        $(".modal-footer .btn-primary").before(html1);
+
+        checkChecked();
+    }
+</script><script id="add_group" type="text/html">
+    <div class="form-warp">
+        <div class="form-group mt-20 mb20">
+            <ul class="nav nav-pills navRank navRank0">
+                <li class="active"><a class="cr30" href="#add1" data-toggle="tab" aria-expanded="true">微信榜单</a></li>
+                <li class=""><a class="cr30" href="#add2" data-toggle="tab" aria-expanded="false">微博榜单</a></li>
+                <li class=""><a class="cr30" href="#add3" data-toggle="tab" aria-expanded="false">今日头条</a></li>
+                <li class=""><a style="width:105px" class="cr30" href="#add4" data-toggle="tab" aria-expanded="false">微信授权榜</a></li>
+                <li class=""><a class="cr30" href="#add5" data-toggle="tab" aria-expanded="false">融媒榜单</a></li>
+                <li class=""><a class="cr30" href="#add6" data-toggle="tab" aria-expanded="false">抖音榜单</a></li>
+                <li class=""><a class="cr30" href="#add7" data-toggle="tab" aria-expanded="false">快手榜单</a></li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane fade active in" id="add1">
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" value="" placeholder="填写榜单名称"/>
+                        <input type="hidden" name="gid" />
+                    </div>
+                    <div class="form-inline form-group mr">
+                        <div class="form-group">
+                            <span class="control-label">分类：</span>
+                            <div class="btn-group dropdown">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="word" id="types2">全部</span> <span class="caret"></span></button>
+                                <ul id="select-typs" class="dropdown-menu more">
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="政务">政务</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="时事">时事</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="文化">文化</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="生活">生活</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="健康">健康</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="美食">美食</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="时尚">时尚</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="旅行">旅行</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="母婴">母婴</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="科技">科技</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="创业">创业</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="职场">职场</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="娱乐">娱乐</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="搞笑">搞笑</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="动漫">动漫</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="游戏">游戏</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="体育">体育</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="汽车">汽车</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="金融">金融</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="房产">房产</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="教育">教育</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="民生">民生</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="企业">企业</a>
+                                        </li>
+                                                                            <li><a href="javascript:void(0);"
+                                               data-value="其他">其他</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="control-label">地区：</span>
+                            <div class="btn-group city-text">
+                                <input name="city" readonly class="form-control" id="fromcity2"  type="text"  placeholder="选择城市"/><i class="icons"></i>
+                                <input type="hidden" id="fromcity2_hidden" value=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mr">
+                        <span class="control-label">是否公开：</span>
+                        <input   type="radio"  name="hide" value="0" checked="checked"/>公开
+                        <input   type="radio"  name="hide" value="1" />不公开
+                    </div>
+                    <div id="groupModalTip" style="text-align: center;height:30px;padding: 5px;display:none">
+
+                    </div>
+
+
+            </div>
+            <div class="tab-pane fade " id="add2">
+                <div class="form-group pt20">
+                    <input class="form-control urlAdd " rows="14" id="wb_name" placeholder="填写微博榜单名称"/>
+                </div>
+                <div class="form-group mr">
+                    <span class="control-label">是否公开：</span>
+                    <input   type="radio"  name="hide2" value="0" checked="checked"/>公开
+                    <input   type="radio"  name="hide2" value="1" />不公开
+                </div>
+                <div id="groupModalTip2" style="text-align: center;height:30px;padding: 5px;display:none">
+
+                </div>
+            </div>
+            <div class="tab-pane fade " id="add3">
+                <div class="form-group pt20">
+                    <input class="form-control urlAdd " id="tt_name" rows="14" placeholder="填写头条榜单名称"/>
+                </div>
+                <div class="form-group mr">
+                    <span class="control-label">是否公开：</span>
+                    <input   type="radio"  name="hide3" value="0" checked="checked"/>公开
+                    <input   type="radio"  name="hide3" value="1" />不公开
+                    <!--<div class="alert-danger" style="height:30px;padding: 5px;">本功能正在内测中，仅对部分账号开放</div>-->
+                </div>
+                <div id="groupModalTip3" style="text-align: center;height:30px;padding: 5px;display:none"></div>
+            </div>
+            <div class="tab-pane fade " id="add4">
+                <div class="form-group pt20">
+                    <input class="form-control urlAdd " id="wxoauth_name" rows="14" placeholder="填写微信授权榜单名称"/>
+                </div>
+                <!--<div class="form-group mr">
+                    <span class="control-label">是否公开：</span>
+                    <input   type="radio"  name="hide4" value="0"/>公开
+                    <input   type="radio"  name="hide4" value="1"  checked="checked" />不公开
+                </div>-->
+                <div id="groupModalTip4" style="text-align: center;height:30px;padding: 5px;display:none"></div>
+            </div>
+            <div class="tab-pane fade " id="add5">
+                <div class="form-group pt20">
+                    <input class="form-control urlAdd " id="rmt_name" rows="14" placeholder="填写融媒榜单名称"/>
+                </div>
+                <!--<div class="form-group mr">
+                    <span class="control-label">是否公开：</span>
+                    <input   type="radio"  name="hide4" value="0"/>公开
+                    <input   type="radio"  name="hide4" value="1"  checked="checked" />不公开
+                </div>-->
+                <div id="groupModalTip5" style="text-align: center;height:30px;padding: 5px;display:none"></div>
+            </div>
+            <div class="tab-pane fade " id="add6">
+                <div class="form-group pt20">
+                    <input class="form-control urlAdd " id="dy_name" rows="14" placeholder="填写抖音榜单名称"/>
+                </div>
+                <div class="form-group mr">
+                    <span class="control-label">是否公开：</span>
+                    <input   type="radio"  name="hide5" value="0" checked="checked"/>公开
+                    <input   type="radio"  name="hide5" value="1" />不公开
+                </div>
+                <div id="groupModalTip6" style="text-align: center;height:30px;padding: 5px;display:none"></div>
+            </div>
+            <div class="tab-pane fade " id="add7">
+                <div class="form-group pt20">
+                    <input class="form-control urlAdd " id="ks_name" rows="14" placeholder="填写快手榜单名称"/>
+                </div>
+                <div class="form-group mr">
+                    <span class="control-label">是否公开：</span>
+                    <input   type="radio"  name="hide6" value="0" checked="checked"/>公开
+                    <input   type="radio"  name="hide6" value="1" />不公开
+                </div>
+                <div id="groupModalTip7" style="text-align: center;height:30px;padding: 5px;display:none"></div>
+            </div>
+        </div>
+    </div>
+
+</script>
+<script>
+    //加入微信榜单
+    function add_group(){
+        $(".modal,.modal-backdrop").remove();
+        var html = $("#add_group").html();
+        $(document).modalll({
+            title : "新建榜单",
+            width : 765,
+            content : html,
+            close : "关闭",
+            enter : "创建榜单",
+            callback:function(){
+                if($('#add1').hasClass('active')) {//添加微信分组
+                    var name = $("input[name='name']").val();
+                    var hide = $("input[name='hide']:checked").val();
+                    var types = $('#types2').html();
+                    var industry = $("#fromcity2_hidden").val();
+                    var arr = industry.split('-');
+                    if (name == "") {
+                        showModalTip($('.form-warp #groupModalTip'), 'alert-danger', '请填写榜单名称');
+                        return;
+                    }
+                    if (types == '全部') {
+                        showModalTip($('.form-warp #groupModalTip'), 'alert-danger', '请选择分类信息');
+                        return;
+                    }
+                    if (arr[0] == '') {
+                        showModalTip($('.form-warp #groupModalTip'), 'alert-danger', '请选择地域信息');
+                        return;
+                    }
+                    var province = arr[0];
+                    if (arr[1] == undefined) {
+                        var city = arr[0];
+                    } else {
+                        var city = arr[1];
+                    }
+                    $.ajax({
+                        url: '/custom/ajax_groupname',
+                        type: 'post',
+                        dataType: 'json',
+                        data: {name: name, types: types, province: province, city: city, hide: hide},
+                        success: function (res) {
+                            if (res.error == 0) {
+                                showModalTip($('.form-warp #groupModalTip'), "alert-success", "新建榜单成功");
+                                location.href = '/custom/myrank';
+                            } else {
+                                showModalTip($('.form-warp #groupModalTip'), "alert-danger", res.error_msg);
+                            }
+                        }, error: function () {
+                            console.log('error');
+                        }
+                    });
+                }else if($('#add2').hasClass('active')){//添加微博分组
+                    var wb_hide = $("input[name='hide2']:checked").val();
+                    var wb_name = $('#wb_name').val();
+                    if (wb_name == "") {
+                        showModalTip($('.form-warp #groupModalTip2'), 'alert-danger', '请填写榜单名称');
+                        return;
+                    }
+                    $.ajax({
+                        url: '/custom/ajax_wbgroup',
+                        type: 'post',
+                        dataType: 'json',
+                        data: {wb_name: wb_name, wb_hide: wb_hide},
+                        success: function (res) {
+                            if (res.error == 0) {
+                                showModalTip($('.form-warp #groupModalTip2'), "alert-success", "新建榜单成功");
+                                location.href = '/custom/mywbrank';
+                            } else {
+                                showModalTip($('.form-warp #groupModalTip2'), "alert-danger", res.error_msg);
+                            }
+                        }, error: function () {
+                            console.log('error');
+                        }
+                    });
+                }else if($('#add3').hasClass('active')){//添加头条分组
+                    var tt_hide = $("input[name='hide3']:checked").val();
+                    var tt_name = $('#tt_name').val();
+                    if (tt_name == "") {
+                        showModalTip($('.form-warp #groupModalTip3'), 'alert-danger', '请填写榜单名称');
+                        return;
+                    }
+                    $.ajax({
+                        url: '/custom/ajax_ttgroup',
+                        type: 'post',
+                        dataType: 'json',
+                        data: {tt_name:tt_name, tt_hide:tt_hide},
+                        success: function (res) {
+                            if (res.error == 0) {
+                                showModalTip($('.form-warp #groupModalTip3'), "alert-success", "新建榜单成功");
+                                location.href = '/custom/myttrank';
+                            } else {
+                                showModalTip($('.form-warp #groupModalTip3'), "alert-danger", res.error_msg);
+                            }
+                        }, error: function () {
+                            console.log('error');
+                        }
+                    })
+                }else if($('#add4').hasClass('active')){ // 添加 微信授权榜单
+                    var wxoauth_hide = $("input[name='hide4']:checked").val();
+                    var wxoauth_name = $('#wxoauth_name').val();
+                    if (wxoauth_name == "") {
+                        showModalTip($('.form-warp #groupModalTip4'), 'alert-danger', '请填写榜单名称');
+                        return;
+                    }
+                    $.ajax({
+                        url: '/custom/ajax_wxoauthgroup',
+                        type: 'post',
+                        dataType: 'json',
+                        data: {wxoauth_name:wxoauth_name, wxoauth_hide:wxoauth_hide},
+                        success: function (res) {
+                            if (res.error == 0) {
+                                showModalTip($('.form-warp #groupModalTip4'), "alert-success", "新建榜单成功");
+                                location.href = '/custom/myoauthrank';
+                            } else {
+                                showModalTip($('.form-warp #groupModalTip4'), "alert-danger", res.error_msg);
+                            }
+                        }, error: function () {
+                            console.log('error');
+                        }
+                    })
+                }else if($('#add5').hasClass('active')){ // 添加 微信授权榜单
+                    var rmt_hide = $("input[name='hide5']:checked").val();
+                    var rmt_name = $('#rmt_name').val();
+                    if (rmt_name == "") {
+                        showModalTip($('.form-warp #groupModalTip5'), 'alert-danger', '请填写榜单名称');
+                        return;
+                    }
+                    $.ajax({
+                        url: '/custom/ajax_rmtgroups',
+                        type: 'post',
+                        dataType: 'json',
+                        data: {rmt_name:rmt_name, rmt_hide:rmt_hide},
+                        success: function (res) {
+                            if (res.error == 0) {
+                                showModalTip($('.form-warp #groupModalTip5'), "alert-success", "新建融媒榜单成功");
+                                location.href = '/custom/myrmtgroup';
+                            } else {
+                                showModalTip($('.form-warp #groupModalTip5'), "alert-danger", res.error_msg);
+                            }
+                        }, error: function () {
+                            console.log('error');
+                        }
+                    })
+                }else if($('#add6').hasClass('active')){ // 添加抖音分组
+                    var dy_hide = $("input[name='hide5']:checked").val();
+                    var dy_name = $('#dy_name').val();
+                    if (dy_name == "") {
+                        showModalTip($('.form-warp #groupModalTip6'), 'alert-danger', '请填写榜单名称');
+                        return;
+                    }
+                    $.ajax({
+                        url: '/custom/ajax_dygroup',
+                        type: 'post',
+                        dataType: 'json',
+                        data: {dy_name:dy_name, dy_hide:dy_hide},
+                        success: function (res) {
+                            if (res.error == 0) {
+                                showModalTip($('.form-warp #groupModalTip6'), "alert-success", "新建榜单成功");
+                                location.href = '/custom/mydyrank';
+                            } else {
+                                showModalTip($('.form-warp #groupModalTip6'), "alert-danger", res.error_msg);
+                            }
+                        }, error: function () {
+                            console.log('error');
+                        }
+                    })
+                }else if($('#add7').hasClass('active')){ // 添加快手分组
+                    var ks_hide = $("input[name='hide6']:checked").val();
+                    var ks_name = $('#ks_name').val();
+                    if (ks_name == "") {
+                        showModalTip($('.form-warp #groupModalTip7'), 'alert-danger', '请填写榜单名称');
+                        return;
+                    }
+                    $.ajax({
+                        url: '/custom/ajax_ksgroup',
+                        type: 'post',
+                        dataType: 'json',
+                        data: {ks_name:ks_name, ks_hide:ks_hide},
+                        success: function (res) {
+                            if (res.error == 0) {
+                                showModalTip($('.form-warp #groupModalTip7'), "alert-success", "新建榜单成功");
+                                location.href = '/custom/myksrank';
+                            } else {
+                                showModalTip($('.form-warp #groupModalTip7'), "alert-danger", res.error_msg);
+                            }
+                        }, error: function () {
+                            console.log('error');
+                        }
+                    })
+                }
+            }
+        });
+        $('#fromcity2').jcity({
+            urlOrData: 'http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/city/citydata.json',
+            animate: { showClass: 'animated flipInX', hideClass: 'animated flipOutX' },
+            onChoice: function (data) {
+                $("#fromcity2_hidden").val(data.realName);
+            }
+        });
+
+
+        /*$('.rankMdNav-tabs li').on('click',function(){
+            var ind = $(this).index();
+            if(ind==2){
+                $('.btn-primary').attr("disabled","disabled");
+            }else{
+                $('.btn-primary').removeAttr("disabled","disabled");
+            }
+        });*/
+    }
+
+
+</script>
+<div class="hide" id="tagManag">
+    <div class="tagManag-cont invoice-form mt10 mb10">
+        <div class="tagCorrect-box">
+                        <a class="fr crf5 fs16 tagCorrect mt10" href="javascript:void(0)" onclick="tagCorrect();">标签纠错</a>
+                        <div class="">
+                <h2 class="fs18" id="wx_nickname">观察者网</h2>
+                <span class="cr7d" id="wx_name">guanchacn</span>
+                <input type="hidden" name="wx_biz" value="MjM5MjA4MjA4MA=="/>
+            </div>
+            <div class="tagLi">
+                                                        <span class="tagLi">
+                                                    <a target="_blank" href="/query/wx?q=tag:新闻">新闻</a>
+                                                    <a target="_blank" href="/query/wx?q=tag:资讯">资讯</a>
+                                                    <a target="_blank" href="/query/wx?q=tag:自媒体机构">自媒体机构</a>
+                                                    <a target="_blank" href="/query/wx?q=tag:自媒体">自媒体</a>
+                                                    <a target="_blank" href="/query/wx?q=tag:新闻评论">新闻评论</a>
+                        						</span>
+                                                </div>
+            <h3>新增标签<span class="fs14 crf5 ml10 evenTag hide">每个标签最多10个标签</span></h3>
+            <div class="newTag clearfix">
+                <div class="newTag clearfix">
+                    <div class="col-md-3 pl pr mb10 last">
+                        <button class="btn btn-default cr7a adNewTag" type="submit" id="addNewTag"><i class="fs18">+</i>添加</button>
+                    </div>
+                </div>
+            </div>
+            <h3>新增理由</h3>
+            <textarea value="" placeholder="新增理由描述,不超过120字" id="adddes" class="form-control" ></textarea>
+            <br/>
+        </div>
+        <div class="tagCorrect-box2 hide">
+            <span class="fr crf5 fs16 tagCorrect mt10" >标签纠错中...</span>
+            <div class="">
+                <h2 class="fs18">观察者网</h2>
+                <span class="cr7d">guanchacn</span>
+            </div>
+            <div class="tagLi">
+                                                                                                <a>新闻</a>
+                                                            <a>资讯</a>
+                                                            <a>新闻评论</a>
+                                                                            </div>
+            <p class="mb0 mt10 crfa">请选择上面需要纠错的标签</p>
+            <h3>纠错理由</h3>
+            <textarea  value="" placeholder="纠错理由描述,不超过120字" id="editdes" class="form-control" ></textarea>
+        </div>
+        <br/>
+        <div id="groupModalTip_add" style="text-align: center;height:30px;padding: 5px;display:none">
+
+        </div>
+        <script>
+            //获取字符串长度（汉字算两个字符，字母数字算一个）
+            function getByteLen(obj,val) {
+                var len = 0;
+                var word = '';
+                for (var i = 0; i < val.length; i++) {
+                    var a = val.charAt(i);
+                    if (a.match(/[^\x00-\xff]/ig) != null) {
+                        len += 2;
+                    }else{
+                        len += 1;
+                    }
+                    if(len<=10){
+                        word += a;
+                    }
+                }
+                if(len>=10){
+                    obj.val(word);
+                }
+                return len;
+            }
+            function checkInput(){
+                $('.tagManagModal').on('input propertychange','.newTagInput', function() {
+                    var newTagVal = $(this).val();
+                    if(getByteLen( $(this),newTagVal)>10){
+                        $(this).parents('.newTag').prev().find('.evenTag').removeClass('hide').text('每个标签最多输入10个字');
+                    }
+
+                });
+            }
+            checkInput();
+
+            function tagCorrect(){
+                $('.tagCorrect-box').addClass('hide').siblings('.tagCorrect-box2').removeClass('hide');
+            }
+            $('.tagManagModal #addNewTag').on('click',function(){
+                var _parent = $(this).parents('.newTag');
+                var num = _parent.siblings('.tagLi').find('a').length + _parent.find('.col-md-3').length - 1;
+                var num2 = _parent.siblings('.tagLi').find('a').length;
+                console.log($.trim($(this).parent().prev().find('input').val()).length);
+
+                if(num != num2){
+                    if(num >= 1){
+                        if($.trim($(this).parent().prev().find('input').val()).length == 0){
+                            _parent.prev().find('.evenTag').removeClass('hide').text('新增标签不能为空');
+                            return false;
+                        }
+                    }
+                }
+                var taghtml = '<div class="col-md-3 pr pl mb10"><a class="closeNewTag crf5 fs16">×</a><input class="form-control newTagInput" type="text" value="" /></div>';
+                if(num >= 10){
+                    _parent.prev().find('.evenTag').removeClass('hide').text('最多添加10个标签');
+                }else{
+                    $(this).parent().before(taghtml);
+                }
+
+            });
+            $('.tagManagModal').on('click','.closeNewTag',function(){
+                $(this).parent('.col-md-3').remove();
+            });
+            $('.tagManagModal .tagCorrect-box2').find('.tagLi a').on('click',function(){
+                $(this).toggleClass('active');
+            });
+        </script>
+    </div>
+</div>
+
+
+
+<div class="hide" id="tagManagSuc">
+    <div class="tagManag-cont invoice-form mt10 mb10 ac">
+        <div class="tagCorrect-box">
+            <div class="tagManagSuc-info mb10 pb10">
+                <p>您对  观察者网  新增的标签：</p>
+                <p class="fs16 crfa" id="add_tag"></p>
+                <p>已提交成功！</p>
+            </div>
+            <p class="cr7d">审核后系统将发消息通知您</p>
+            <div class="tagManagSuc-btn">
+                <button class="btn btn-default cr27 adNewTag" type="submit" onclick="tagManagModal();"><i class="fs18">+</i>继续添加</button>
+            </div>
+        </div>
+        <div class="tagCorrect-box2 hide">
+            <div class="tagManagSuc-info mb10 pb10">
+                <p>您对  观察者网  纠错的标签</p>
+                <p class="fs16 crfa" id="edit_tag"></p>
+                <p>已提交成功！</p>
+            </div>
+        </div>
+    </div>
+
+</div><script type="text/html" class="hide" id="qbAdver">
+    <div class="form-horizontal clearfix cr30">
+        <div class="form-group pb10">
+            <span class="col-sm-3 control-lb pr"><em class="crf3">*</em>姓名</span>
+            <div class="col-sm-9 control-right pr28">
+                <input type="text" id="realname" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-group pb10">
+            <span class="col-sm-3 control-lb pr"><em class="crf3">*</em>手机号</span>
+            <div class="col-sm-9 control-right pr28">
+                <input type="text" id="mobile" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-group pb10">
+            <span class="col-sm-3 control-lb pr"><em class="crf3">*</em>公司</span>
+            <div class="col-sm-9 control-right pr28">
+                <input type="text" id="company" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-group pb10">
+            <span class="col-sm-3 control-lb pr">职务</span>
+            <div class="col-sm-9 control-right pr28">
+                <input type="text" id="position" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-group pb10">
+            <span class="col-sm-3 control-lb pr">需求描述</span>
+            <div class="col-sm-9 control-right pr28">
+                <textarea class="form-control" onkeyup="words_deal()" id="desc" name="" rows="5" cols="" placeholder="请简要描述您的需求，内容字数不超过120个字。"></textarea>
+            </div>
+        </div>
+        <div id="err_msg" style="text-align: center;height:30px;padding: 5px;display:none"></div>
+        <p class="ac cr7d">带<em class="crf3">*</em>为必填项，填写完整才可提交</p>
+    </div>
+</script>
+<script>
+    function words_deal()
+    {
+        var curLength=$("#desc").val().length;
+        if(curLength>240)
+        {
+            var des=$("#desc").val().substr(0,240);
+            $("#desc").val(des);
+            showModalTip($('#err_msg'), 'alert-danger', '修改原因不能超过120字');
+        }
+    }
+    function qbAdverModle(){
+        html = $("#qbAdver").html();
+        $(document).modalll({
+            title: "填写信息",
+            width: 567,
+            content: html,
+            enter : "提交",
+            closeHide : true,
+            callback: function () {
+                var wx_nickname = "观察者网";
+                var wx_name = "guanchacn";
+                var realname = $('#realname').val();
+                var mobile = $('#mobile').val();
+                var company = $('#company').val();
+                var position = $('#position').val();
+                var desc = $('#desc').val();
+                if(realname==''){
+                    showModalTip($('#err_msg'), 'alert-danger', '请填写姓名');
+                    return false;
+                }
+                if(mobile==''){
+                    showModalTip($('#err_msg'), 'alert-danger', '请填写手机号');
+                    return false;
+                }
+                if(company==''){
+                    showModalTip($('#err_msg'), 'alert-danger', '请填写公司名称');
+                    return false;
+                }
+                if(desc.length>240){
+                    showModalTip($('#err_msg'), 'alert-danger', '修改原因不能超过120字');
+                    return false;
+                }
+                var is_success = '';
+                $.post('/rank/ajax_addadver',{realname:realname,mobile:mobile,company:company,position:position,wx_nickname:wx_nickname,wx_name:wx_name,desc:desc},function(data) {
+                    data = eval("("+data+")");
+                    if(data.error != 0){
+                        //报错信息
+                        showModalTip($('#err_msg'), 'alert-danger', data.error_msg);
+                        return false;
+                    }else{
+                        showModalTip($('#err_msg'), "alert-success", "提交成功，请耐心等待管理员审核");
+                        is_success =1;
+                    }
+                });
+                if(is_success){ // 直接在ajax跳转 浏览器会自动屏蔽
+                    window.open('https://m.gsdata.cn/Mobile_Ads_index.html');
+                }
+            }
+        });
+    }
+</script><script type="text/html" class="hide" id="sortManag">
+    <div class="form-horizontal clearfix fs16 cr30">
+        <div class="form-group mb10">
+            <span class="col-sm-3 control-lb pr wAuto">观察者网：</span>
+            <span class="control-rt pl cr7d">guanchacn</span>
+        </div>
+        <div class="form-group">
+            <span class="col-sm-3 control-lb pr">当前分类：</span>
+            <span class="col-sm-9 control-rt pl">时事</span>
+        </div>
+        <div class="form-group">
+            <span class="col-sm-3 control-lb pr">分类修改：</span>
+            <div class="col-sm-9 control-rt pl">
+                <ul id="select-typs" class="sortLi fs14">
+                                                                                                                                                            <li><a href="javascript:void(0);" data-value="政务">政务</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="时事">时事</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="文化">文化</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="生活">生活</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="健康">健康</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="美食">美食</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="时尚">时尚</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="旅行">旅行</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="母婴">母婴</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="科技">科技</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="创业">创业</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="职场">职场</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="娱乐">娱乐</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="搞笑">搞笑</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="动漫">动漫</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="游戏">游戏</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="体育">体育</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="汽车">汽车</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="金融">金融</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="房产">房产</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="教育">教育</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="民生">民生</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="企业">企业</a></li>
+                                                                                                                <li><a href="javascript:void(0);" data-value="其他">其他</a></li>
+                                                                                        </ul>
+            </div>
+        </div>
+        <div class="form-group mb10">
+            <span class="col-sm-3 control-lb pr"><em class="crf3">*</em>修改原因：</span>
+            <div class="col-sm-9 control-rt pl pr28"><textarea onkeyup="words_deal()" class="form-control desc" name="" rows="5" cols="" placeholder="请简要描述修改该账号分类的原因，以便工作人员审核，内容字数不超过120个字。"></textarea></div>
+        </div>
+        <div id="err_msg" style="text-align: center;height:30px;padding: 5px;display:none"></div>
+    </div>
+</script>
+<script>
+    function words_deal()
+    {
+        var curLength=$(".desc").val().length;
+        if(curLength>240)
+        {
+            var des=$(".desc").val().substr(0,240);
+            $(".desc").val(des);
+            showModalTip($('#err_msg'), 'alert-danger', '修改原因不能超过120字');
+        }
+    }
+    function sortManag(){
+        html = $("#sortManag").html();
+        $(document).modalll({
+            title: "分类管理",
+            width: 567,
+            content: html,
+            enter : "提交",
+            closeHide : true,
+            callback: function () {
+                var wx_nickname = "观察者网";
+                var wx_name = "guanchacn";
+                var wx_biz = "MjM5MjA4MjA4MA==";
+                var wx_types = "时事";
+
+                var new_types =  $('.sortLi .cur').children('a').attr('data-value');
+                var desc = $('.desc').val();
+                if(!new_types){
+                    showModalTip($('#err_msg'), 'alert-danger', '请选择修改的分类');
+                    return false;
+                }
+                if(!desc){
+                    showModalTip($('#err_msg'), 'alert-danger', '请填写修改原因');
+                    return false;
+                }
+                if(desc.length>240){
+                    showModalTip($('#err_msg'), 'alert-danger', '修改原因不能超过120字');
+                    return false;
+                }
+                if(new_types==wx_types){
+                    showModalTip($('#err_msg'), 'alert-danger', '修改分类不能原分类一样');
+                    return false;
+                }
+
+                $.post('/rank/ajax_editwxtypes',{wx_nickname:wx_nickname,wx_name:wx_name,wx_biz:wx_biz,types:new_types,desc:desc},function(data) {
+                    data = eval("("+data+")");
+                    if(data.error != 0){
+                        //报错信息
+                        showModalTip($('#err_msg'), 'alert-danger', data.error_msg);
+                        return false;
+                    }else{
+                        showModalTip($('#err_msg'), "alert-success", "提交成功，请耐心等待管理员审核");
+                        location.reload();
+                    }
+                });
+            }
+        });
+
+        $('.sortLi li').on('click',function(){
+            $(this).addClass('cur').siblings('li').removeClass('cur');
+        })
+    }
+</script>
+<script type="text/html" class="hide" id="localManag">
+    <div class="form-horizontal clearfix fs16 cr30">
+        <div class="form-group mb10">
+            <span class="col-sm-3 control-lb pr wAuto">观察者网：</span>
+            <span class="control-rt pl cr7d">guanchacn</span>
+        </div>
+        <div class="form-group">
+            <span class="col-sm-3 control-lb pr">当前地域：</span>
+            <span class="col-sm-9 control-rt pl">上海市 - 上海市</span>
+        </div>
+        <div class="form-group">
+            <span class="col-sm-3 control-lb pr">地域修改：</span>
+            <div class="col-sm-9 control-rt pl pr28">
+                <div class="cityModel city-text">
+                    <input name="city" readonly class="form-control" id="fromcity_rango"  type="text"  placeholder="选择城市"/><i class="icons"></i>
+                    <input type="hidden" id="fromcity_rango_hidden" value=""/>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb10">
+            <span class="col-sm-3 control-lb pr"><em class="crf3">*</em>修改原因：</span>
+            <div class="col-sm-9 control-rt pl pr28"><textarea onkeyup="words_deal()" class="form-control desc" name="" rows="5" cols="" placeholder="请简要描述修改该账号分类的原因，以便工作人员审核，内容字数不超过120个字。"></textarea></div>
+        </div>
+        <div id="err_msg" style="text-align: center;height:30px;padding: 5px;display:none"></div>
+    </div>
+</script>
+<script>
+    function words_deal()
+    {
+        var curLength=$(".desc").val().length;
+        if(curLength>240)
+        {
+            var des=$(".desc").val().substr(0,240);
+            $(".desc").val(des);
+            showModalTip($('#err_msg'), 'alert-danger', '修改原因不能超过120字');
+        }
+    }
+    function localManag(){
+        html = $("#localManag").html();
+        $(document).modalll({
+            title: "地域管理",
+            width: 567,
+            content: html,
+            enter : "提交",
+            closeHide : true,
+            callback: function () {
+                var wx_nickname = "观察者网";
+                var wx_name = "guanchacn";
+                var wx_biz = "MjM5MjA4MjA4MA==";
+                var desc = $('.desc').val();
+                var industry = $("#fromcity_rango_hidden").val();
+                var arr = industry.split('-');
+                var province = arr[0];
+                if (arr[1] == undefined) {
+                    var city = arr[0];
+                } else {
+                    var city = arr[1];
+                }
+                if(!desc){
+                    showModalTip($('#err_msg'), 'alert-danger', '请填写修改原因');
+                    return false;
+                }
+                if(desc.length>240){
+                    showModalTip($('#err_msg'), 'alert-danger', '修改原因不能超过120字');
+                    return false;
+                }
+                if(!city || !province){
+                    showModalTip($('#err_msg'), 'alert-danger', '请选择地域信息');
+                    return false;
+                }
+
+                $.post('/rank/ajax_editwxarea',{province:province,city:city,wx_nickname:wx_nickname,wx_name:wx_name,wx_biz:wx_biz,desc:desc},function(data) {
+                    data = eval("("+data+")");
+                    if(data.error != 0){
+                        //报错信息
+                        showModalTip($('#err_msg'), 'alert-danger', data.error_msg);
+                        return false;
+                    }else{
+                        showModalTip($('#err_msg'), "alert-success", "提交成功，请耐心等待管理员审核");
+                        location.reload();
+                    }
+                });
+            }
+        });
+        $('#fromcity_rango').jcity({
+            urlOrData: 'http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/city/citydata.json',
+            showHot: false,
+            animate: { showClass: 'animated flipInX', hideClass: 'animated flipOutX' },
+            onChoice: function (data) {
+                $("#fromcity_rango_hidden").val(data.realName);
+            }
+        });
+
+    }
+</script>
+
+<link href="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/css/wx-detail.css" rel="stylesheet">
+<script src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/common/js/plugins/echarts/echarts.min.js"></script>
+
+<div class="main w12">
+    <div class="wxDetail-top bgff">
+                    <div class="wxDetail-linkr fs15 fr">
+                <a class="addBtn addCol1 l" target="_blank" href="/recall/recall"><i class="iconswx iconswx-sjhs"></i>数据回溯</a>
+                <!--<a class="addBtn addCol2 l" target="_blank" href=""><i class="iconswx iconswx-ydjc"></i>阅读监测</a>-->
+                <a class="addBtn addCol3 l" target="_blank" href="/tool/kpi"><i class="iconswx iconswx-wxkh"></i>微信考核</a>
+                <a class="addBtn addCol4 l" target="_blank" href="/recall/list"><i class="iconswx iconswx-sjdp"></i>数据大屏</a>
+                <a class="addBtn addCol5 l" target="_blank" href="http://yuqing.gsdata.cn/site/help?hid=59"><i class="iconswx iconswx-yqbg"></i>舆情报告</a>
+                <a class="addBtn addCol6 l" target="_blank" href="http://databus.gsdata.cn"><i class="iconswx iconswx-sjjk"></i>数据接口</a>
+                <a class="addBtn addCol7 l" target="_blank" href="/tool/ygfsindex"><i class="iconswx iconswx-fsyg"></i>粉丝预估</a>
+                <a class="addBtn addCol8 l" href="javascript:void(0);" onclick="qbAdverModle();"><i class="iconswx iconswx-qbgg"></i>投放此号</a>
+            </div>
+            <div class="wxDetail-img fl">
+                <div style='background:url(http://wx.qlogo.cn/mmhead/Q3auHgzwzM7PQx41GmZhAe2epnOibZQRMd6K4jUqQmapXLn3o6OrxMA/132) -0px -0px no-repeat;background-size:100%;width: 140px;height:140px;' ></div>
+                <!--
+                <div  style="margin-top:10px;" class="cr7d">入库时间:</div>
+                -->            </div>
+            <div class="wxDetail-info">
+                <div class="wxDetail-linkr fs15 fr">
+                    <!--<a class="addBtn cr79 fr" href=""><i class="icons1 icon1-kpi"></i>KPI考核</a>
+                    <a class="addBtn cr27 fr" href=""><i class="icons1 icon1-sjdp"></i>数据大屏</a>
+                    <a class="addBtn crf5 fr" href=""><i class="icons1 icon1-fzj"></i>分钟级监测</a>
+                    <a class="addBtn cr6e fr" href=""><i class="icons1 icon1-gghhs"></i>公众号回溯</a>-->
+                    <!--<a class="addBtn crf5 fs16 fr" href=""><i class="icons1 icon1-monit"></i>文章监控</a>-->
+                    <!--<a class="addBtn cr2f fs16 fr" href="" target="_blank"><i class="icons1 icon1-fans"></i>预估粉丝</a>
+                    <a class="addBtn crfc fs16 fr" href="" target="_blank"><i class="icons1 icon1-valuation"></i>公号估值</a>-->
+                </div>
+                <div class="wxDetail-name">
+                <label class="fs22">观察者网</label>
+                                <span class="original bg62">原创号</span>
+                                					<span class="wxcode">
+						<i class="icons1 icon1-code"></i>
+						<div class="wxcode-down hide">
+                            <img src="https://mp.weixin.qq.com/mp/qrcode?scene=10000001&size=100&__biz=MjM5MjA4MjA4MA==&mid=2654753076&idx=5&sn=e14af516bd82b50a4f419afa420dbd5f&scene=0" width="144"/>
+                        </div>
+					</span>
+                <!-----选择状态 collecte后面加 active----->
+                                                            <a class="collecte" href="javascript:void(0);" title="收藏公众号" onclick="tag_wx(this,'guanchacn');"><i class="icons1 icon1-collecte"></i><span id="istag" class="ml0">收藏</span></a>
+                                                                                <a class="ml10 cr27 fs15" href="javascript:void(0)" onclick="zdyList('MQTBADzS')" ><i class="icon1-circle">+</i>加入自榜</a>
+                                </div>
+            <div class="info-li clearfix">
+                <div class="fl">
+                    <p><label class="cr7d">微信号</label><span class="cr7d">：</span>guanchacn</p>
+                    <p><label class="cr7d">认证信息</label><span class="cr7d">：</span>上海观察者信息技术有限公司</p>
+                </div>
+                <div>
+                    <p><label class="cr7d">分类</label><span class="cr7d">：</span>时事<a class="wxDetaEdit ml5" href="javascript:void(0)" onclick="sortManag();"><i class="icons1 icon1-tagEdit"></i></a></p>
+                    <p><label class="cr7d">地区</label><span class="cr7d">：</span>上海市 - 上海市<a class="wxDetaEdit ml5" href="javascript:void(0)" onclick="localManag();"><i class="icons1 icon1-tagEdit"></i></a></p>
+                </div>
+                <p><label class="cr7d mb0">功能介绍</label><span class="cr7d">：</span>中国关怀  全球视野</p>
+                <p>
+                    <label class="cr7d mt10">标签</label><span class="cr7d">：</span>
+                                                                        <span class="tagLi">
+                                                            <a target="_blank" href="/query/wx?q=tag:新闻">新闻</a>
+                                                            <a target="_blank" href="/query/wx?q=tag:资讯">资讯</a>
+                                                            <a target="_blank" href="/query/wx?q=tag:新闻评论">新闻评论</a>
+                            						    </span>
+                                                                <a class="tagEdit" target="_blank" href="javascript:void(0)"><i class="icons1 icon1-tagEdit"></i></a>
+                </p>
+            </div>
+
+        </div>
+            </div>
+    <!-----公众号刚加入清博监测库的状态----->
+
+    <!-----公众号展示数据----->
+    <div class="wxDetail bgff">
+        <div class="wxDetail-tit">
+            <h5 class="fs16">06月03日文章及账号数据</h5>
+        </div>
+        <div class="wxDetail-data clearfix">
+            <div class="col-xs-4">
+                <div class="wxData-txt fl fs16"><span class="bgf5">总阅读量</span></div>
+                <div class="wxData-cont">
+                    <p class="cr7d">当天文章总阅读量</p>
+                    <p class="fs28">161W+</p>
+                                        <p class="cr52 ">
+                        <i class="icons1 icon1-down "></i>
+                        -200909                    </p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="wxData-txt fl fs16"><span class="bg7e">头条<br/>阅读量</span></div>
+                <div class="wxData-cont">
+                    <p class="cr7d">当天头条总阅读量</p>
+                    <p class="fs28">27W+</p>
+                                        <p class="cr52 ">
+                        <i class="icons1 icon1-down "></i>
+                        -20443                    </p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="wxData-txt fl fs16"><span class="bgfa">排名</span></div>
+                <div class="wxData-cont">
+                    <p class="cr7d">微信总榜排名</p>
+                    <p class="fs28">14</p>
+                                        <p class="cr52 ">
+                        <i class="icons1 icon1-down "></i>
+                        -1                    </p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="wxData-txt fl fs16"><span class="bg62">在看数</span></div>
+                <div class="wxData-cont">
+                    <p class="cr7d">当天文章总在看数</p>
+                    <p class="fs28">14388</p>
+                                        <p class="cr52 ">
+                        <i class="icons1 icon1-down "></i>
+                        -1929                    </p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="wxData-txt fl fs16"><span class="bg31">平均<br/>阅读量</span></div>
+                <div class="wxData-cont">
+                    <p class="cr7d">共发布24篇文章</p>
+                    <p class="fs28">67162</p>
+                                        <p class="cr52 ">
+                        <i class="icons1 icon1-down "></i>
+                        -8371.2                    </p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="wxData-txt fl fs16"><span class="bg6e">WCI</span></div>
+                <div class="wxData-cont">
+                    <p class="cr7d">微信传播指数</p>
+                    <p class="fs28">1482.16</p>
+                                        <p class="cr52 ">
+                        <i class="icons1 icon1-down "></i>
+                        -26.52                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="wxDetail bgff">
+        <div class="wxDetail-tit">
+            <h5 class="fs16">近7天账号数据趋势图</h5>
+        </div>
+        <div class="wxDetail-trend clearfix">
+            <div class="col-xs-6 wxNav-tabs">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#read1" data-toggle="tab">总阅读数</a></li>
+                    <li><a href="#read2" data-toggle="tab">头条阅读数</a></li>
+                    <li><a href="#read3" data-toggle="tab">平均阅读数</a></li>
+                    <li><a href="#read4" data-toggle="tab">在看数</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="active tab-pane fade in" id="read1">
+                        <div id="lineChart1" class="echartabs"></div>
+                    </div>
+                    <div class="tab-pane fade" id="read2">
+                        <div id="lineChart2" class="echartabs"></div>
+                    </div>
+                    <div class="tab-pane fade" id="read3">
+                        <div id="lineChart3" class="echartabs"></div>
+                    </div>
+                    <div class="tab-pane fade" id="read4">
+                        <div id="lineChart4" class="echartabs"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 wxNav-tabs">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#rang1" data-toggle="tab">总排名</a></li>
+                    <li><a href="#rang2" id="typesno" data-toggle="tab">分类排名</a></li>                    <li><a href="#rang3" data-toggle="tab">WCI</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="active tab-pane fade in" id="rang1">
+                        <div id="lineChart5" class="echartabs"></div>
+                    </div>
+                    <div class="tab-pane fade" id="rang2">
+                        <div id="lineChart6" class="echartabs"></div>
+                    </div>
+                    <div class="tab-pane fade" id="rang3">
+                        <div id="lineChart7" class="echartabs"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="wxDetail-tit">
+            <h5 class="fs16">近30天文章发布数据</h5>
+        </div>
+        <div class="wxDetail-trend clearfix">
+            <div class="col-xs-6 wxNav-tabs">
+                <div id="lineChart8" class="echartabs1"></div>
+
+            </div>
+            <div class="col-xs-6 wxNav-tabs">
+                <div id="barChart1" class="echartabs1"></div>
+
+            </div>
+        </div>
+    </div>
+                <div class="wxDetail bgff">
+            <div class="wxDetail-tit clearfix wxNav-tabs">
+                <h5 class="fs16 fl">多平台同主体账号</h5>
+                <ul class="nav nav-tabs fl">
+                    <li class="active"><a href="#wx" data-toggle="tab">微信</a></li>
+                </ul>
+            </div>
+            <div class="platform-acc">
+                <div class="tab-content">
+                    <div class="active tab-pane fade in" id="wx">
+                        <div class="platform-acc-info clearfix">
+                            <div class="col-xs-4 pl20 cr7d">账号主体：<span class="cr30 fs20">上海观察者信息技术有限公司</span></div>
+                            <div class="col-xs-4 ac cr7d">公众号数量：<span class="cr30 fs20">4</span></div>
+                            <!--<div class="col-xs-4 ac cr7d">总阅读量：<span class="cr30 fs20"></span></div>-->
+                        </div>
+                        <table class="table cr7d" id="rank_data" width="100%" border="0" cellpadding="0" cellspacing="0">
+                            <colgroup>
+                                <col width="26%">
+                                <col width="10%">
+                                <col width="10%">
+                                <col width="12%">
+                                <col width="12%">
+                                <col width="10%">
+                                <col width="10%">
+                                <col width="10%">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th class="al pl20">公众号</th>
+                                <th>发文数<!--发布次数/篇数--></th>
+                                <th>总阅读数</th>
+                                <th>头条阅读</th>
+                                <th>平均阅读</th>
+                                <th>总在看数</th>
+                                <th>WCI</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="pl20">
+                                    <a class="mg0" href="/rank/wxdetail?wxname=ZQ3BVDhSbJmqNionYgW5N2u1">
+                                        <div class="img-word">
+                                            <div class="img" style='background:url(http://wx.qlogo.cn/mmhead/Q3auHgzwzM7PQx41GmZhAe2epnOibZQRMd6K4jUqQmapXLn3o6OrxMA/132) -0px -0px no-repeat;background-size:100%;'></div>
+                                            <div class="word">
+                                                <h4 class="cr30 mb0 mt0 pt5">观察者网</h4>
+                                                <span class="">guanchacn</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td><!--/-->24</td>
+                                <td>161W+</td>
+                                <td>27W+</td>
+                                <td>67162</td>
+                                <td>14388</td>
+                                <td>1482.16</td>
+                                                                    <td>
+                                                                                    <a class="collect-a" href="javascript:void(0);" title="收藏公众号" onclick="tag_wx(this,'guanchacn');"><i class="icons"></i></a>
+                                                                                <a class="plus-a" href="javascript:void(0);" title="加入我的榜单" onclick="zdyList('MQTBADzS')"><i class="icons"></i></a>
+                                    </td>
+                                                            </tr>
+                                                                                    <tr>
+                                <td class="pl20">
+                                    <a class="mg0" href="/rank/wxdetail?wxname=ZQ3BVDhSbJmqNionYgW5N2h1aWppbmcO0O0O">
+                                        <div class="img-word">
+                                            <div class="img" style='background:url(http://wx.qlogo.cn/mmhead/Q3auHgzwzM44StT6z3GLUVvyW1JabEHz4hzQJfFo8icTuoUTRnrhYgw/132) -0px -0px no-repeat;background-size:100%;'></div>
+                                            <div class="word">
+                                                <h4 class="cr30 mb0 mt0 pt5">科工力量</h4>
+                                                <span class="">guanchacaijing</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td><!--/-->5</td>
+                                <td>41125</td>
+                                <td>14823</td>
+                                <td>8225</td>
+                                <td>686</td>
+                                <td>893.47</td>
+                                                                    <td>
+                                                                                    <a class="collect-a" href="javascript:void(0);" title="收藏公众号" onclick="tag_wx(this,'guanchacaijing');"><i class="icons"></i></a>
+                                                                                <a class="plus-a" href="javascript:void(0);" title="加入我的榜单" onclick="zdyList('NQDBUD0SNJjqci2nMgw5O0O0O2O0O0O1')"><i class="icons"></i></a>
+                                    </td>
+                                                            </tr>
+                                                        <tr>
+                                <td class="pl20">
+                                    <a class="mg0" href="/rank/wxdetail?wxname=ZQ3BVDhSbJnqNijnagG592v1bAO0O0OO0O0O">
+                                        <div class="img-word">
+                                            <div class="img" style='background:url(http://wx.qlogo.cn/mmhead/Q3auHgzwzM5ZmXfCF2e7xhJo07zXiaVia1HVjLyrlHpbpT9caBAZwyRw/132) -0px -0px no-repeat;background-size:100%;'></div>
+                                            <div class="word">
+                                                <h4 class="cr30 mb0 mt0 pt5">观学院</h4>
+                                                <span class="">guanschool</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td><!--/-->1</td>
+                                <td>3600</td>
+                                <td>3600</td>
+                                <td>3600</td>
+                                <td>70</td>
+                                <td>630.99</td>
+                                                                    <td>
+                                                                                    <a class="collect-a" href="javascript:void(0);" title="收藏公众号" onclick="tag_wx(this,'guanschool');"><i class="icons"></i></a>
+                                                                                <a class="plus-a" href="javascript:void(0);" title="加入我的榜单" onclick="zdyList('MQTBADzSOJTqAi1nOgT5Q2O0O0O1')"><i class="icons"></i></a>
+                                    </td>
+                                                            </tr>
+                                                        <tr>
+                                <td class="pl20">
+                                    <a class="mg0" href="/rank/wxdetail?wxname=TQGBFDuSZJTqMiwnMgA5O0O0O2O0O0O1">
+                                        <div class="img-word">
+                                            <div class="img" style='background:url(http://wx.qlogo.cn/mmhead/Q3auHgzwzM4pPTro3ysicE8sjg5jVqvFaNgSz8311w84zqtoNWL2K1w/132) -0px -0px no-repeat;background-size:100%;'></div>
+                                            <div class="word">
+                                                <h4 class="cr30 mb0 mt0 pt5">300弄车评</h4>
+                                                <span class="">Lane300</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td><!--/-->2</td>
+                                <td>61</td>
+                                <td>43</td>
+                                <td>31</td>
+                                <td>1</td>
+                                <td>126.11</td>
+                                                                    <td>
+                                                                                    <a class="collect-a" href="javascript:void(0);" title="收藏公众号" onclick="tag_wx(this,'Lane300');"><i class="icons"></i></a>
+                                                                                <a class="plus-a" href="javascript:void(0);" title="加入我的榜单" onclick="zdyList('MQTBEDwSMJDqUi1nNgD5Y2O0O0O1')"><i class="icons"></i></a>
+                                    </td>
+                                                            </tr>
+                                                                                    </tbody>
+                    </div>
+                    </table>
+                    <p class="table-more-warp ac">
+                                            </p><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="wxDetail bgff">
+        <div class="wxDetail-tit clearfix wxNav-tabs">
+            <h5 class="fs16 fl">近30天热文TOP10</h5>
+            <ul class="nav nav-tabs fl">
+                <li class="active"><a href="#tab1" id="tab_1" data-toggle="tab">最新</a></li>
+                <li><a href="#tab2" data-toggle="tab" id="tab_2">阅读数</a></li>
+                <li><a href="#tab3" data-toggle="tab" id="tab_3">在看数</a></li>
+            </ul>
+        </div>
+        <div class="wxAti">
+            <div class="tab-content">
+                <div class="active tab-pane fade in" id="tab1">
+                    <ul class="wxAti-li">
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="tab2">
+                    <ul class="wxAti-li">
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="tab3">
+                    <ul class="wxAti-li">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<script>
+    var wx = "guanchacn"
+    var wxname = "ZQ3BVDhSbJmqNionYgW5N2u1"
+    var is_monitor = "1";
+    var total_page = "1";
+    var verifyname = "上海观察者信息技术有限公司";
+    var page=0;
+</script>
+<div class="footer">
+    <div class="foot">
+        <div class="nav fl">
+            <a target="_blank" href="http://home.gsdata.cn/about-us.html">关于清博</a>
+            <a target="_blank" href="http://home.gsdata.cn/news-report/">清博资讯</a>
+            <a target="_blank" href="http://home.gsdata.cn/recruiting-talents.html">诚聘英才</a>
+            <a target="_blank" href="http://databus.gsdata.cn/">开放平台</a>
+            <a target="_blank" href="/site/usage">榜单公式</a>
+            <a target="_blank" href="http://home.gsdata.cn/cooperation.html">咨询&合作</a>
+            <a target="_blank" href="http://home.gsdata.cn/contact-us.html">联系我们</a>
+            <p>©2014-2017 北京清博大数据科技有限公司 版权所有&nbsp;&nbsp;京ICP备16036802号-1&nbsp;&nbsp;<img src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/images/beian.png" alt="公安局备案">
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802024017" >
+                        <span >京公网安备11010802024017号</span>
+                    </a>
+            </p>
+        </div>
+        <div class="foot-imgs fr">
+            <a href=""><img src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/images/ewm_qbzs.jpg"/><span class="word">清博指数</span></a>
+            <a href=""><img src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/images/ewm_qb.jpg"/><span class="word">清博舆论</span></a>
+            <a href=""><img src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/images/ewm_qbdsj.jpg"/><span class="word">清博大数据</span></a>
+        </div>
+    </div>
+</div>
+<script src="/themes/app/js/rank/wxdetail.js"></script>
+    <div class="chux51 hide">
+        <div class="chux51-c in">
+            <div class="close">×</div>
+            <a target="_blank" href="https://u1.gsdata.cn/task/detail?id=8"><img src="http://gsdata-img1.oss-cn-hangzhou.aliyuncs.com/gsdata/gsdata_doc/images/active/202005-invite.png" /></a>
+            <!--<div class="button ac" style="margin: 26px 0 0">
+            <a target="_blank" href="https://u.gsdata.cn/user/pay" style="margin: 0 10px;"><img src="/images/cy-button1.png" /></a>
+            <a target="_blank" href="http://www.gsdata.cn/user/limit" style="margin: 0 10px;"><img src="/images/cy-button2.png" /></a>
+        </div>-->
+
+        </div>
+
+        <div class="modal-backdrop fade in"></div>
+    </div>
+    <script>
+        //   端午活动
+        $('.chux51 .close').on('click',function(){
+            $(this).parent().hide();
+            $('.modal-backdrop').removeClass('in');
+        })
+        $('.chux51 .modal-backdrop').on('click',function(){
+            $(this).removeClass('in');
+            $(this).parent().hide();
+        })
+        window.onload = function () {
+            //================
+            var s = document.cookie;
+            if (s.indexOf('qbad=1') != -1) return; //存在cookie退出下面代码的执行
+            var d = new Date();
+            d.setHours(d.getHours() + 24); //有效期12小时
+            document.cookie = 'qbad=1;expires='+d.toGMTString();//设置cookie
+            //================
+            /*自己弹窗代码*/
+            $('.chux51').removeClass('hide');
+        };
+    </script>
+
+<script type="text/javascript">
+    loginUrl = "https://u1.gsdata.cn/member/login?url="+window.location.href;
+    $(document).keypress(function(event){
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if(keycode == '13'){
+            var target = event.target || event.srcElment;//srcElment针对IE
+            if(target.id == 'search_input'){
+                $(".search_wx").click();
+            }
+        }
+    });
+    $(document).ready(function(){
+        $('a').not($("a[href*='.gsdata.cn'],a[href*='javascript:']")).attr('rel','nofollow');
+        $('a').not($("a[href^='http://']")).removeAttr("rel");
+        //$("a[href*='://']:not(a[href^='http://www.gsdata.cn'],a[href^='javascript:'])").attr('rel',"nofollow");
+        //$("#link a[href*='://']").removeAttr("rel");
+    });
+    $(function() {
+
+        $('.search_wx').click(function(){
+            var search_input = $.trim($('#search_input').val());
+            if(search_input==''){return;}
+           /* $.cookie('gsdata_r', r(search_input),{
+                path: "/", expires: 3600
+            });*/
+            $('.search_arc').removeClass('btn-default').addClass('btn-border');
+            $('.search_wx').removeClass('btn-border').addClass('btn-default');
+            window.location.href="/query/wx?q="+search_input;
+        });
+        $('.search_arc').click(function(){
+            var search_input = $.trim($('#search_input').val());
+            if(search_input==''){return;}
+           /* $.cookie('gsdata_r', r(search_input),{
+                path: "/",expires: 3600
+            });*/
+            $('.search_arc').removeClass('btn-border').addClass('btn-default');
+            $('.search_wx').removeClass('btn-default').addClass('btn-border');
+            window.location.href="/query/arc?q="+search_input;
+        });
+
+        $('.js_account').hover(function() {
+            $(this).find('.js_account_menu').removeClass('hidden');
+        }, function() {
+            $(this).find('.js_account_menu').addClass('hidden');
+        });
+
+        heightAlign();
+
+        $(window).resize(function() {
+            heightAlign();
+        });
+    });
+
+    function heightAlign() {
+        var wh = $(window).height();
+        var mh = $('.main').height();
+        var hh = $('.header').outerHeight();
+
+        if (mh + hh < wh) {
+            $('.js_menu').height(wh - hh - 37);
+            $('.js_contanier_item').height(wh - hh - 20);
+
+            return;
+        }
+
+        $('.js_menu').height(mh - 37);
+    };
+
+
+    //12月签到活动
+    function signInModal(){
+        var html = $('#signInHtml').html();
+        var sliarrn=[];
+        var accept_flag = [];
+        var total = 0;
+        //签到中
+        var signing = false;
+        //领取奖励中
+        var rewarding = false;
+        $(document).modalll({
+            name:'signModal',
+            title : "",
+            width : 410,
+            content : html,
+            close : "关闭",
+            enter : "提交加入",
+            callback:function(){
+                $("#modalClose").click();
+            }
+        });
+
+        $('.modal-footer').remove();
+        //获取签到信息接口
+
+        var $thead=$('#thead'),
+            $tbody=$('#tbody'),
+            $button=$('.sign_btn'),
+            $button2=$('#button2'),
+            wk=true,
+            slidate=new Date(),
+            _nullnei='',
+            de=slidate.getDate();
+        var monthFirst = new Date(slidate.getFullYear(), parseInt(slidate.getMonth()), 1).getDay();//获取当月的1日等于星期几
+        var d = new Date(slidate.getFullYear(), parseInt(slidate.getMonth() + 1), 0); //获取月
+        var conter=d.getDate();//获取当前月的天数
+
+        //遍历日历网格
+        for(var i=1; i<=6;i++){
+            _nullnei+="<tr>";
+            for(var j=1; j<=7;j++)
+            {
+                _nullnei+='<td></td>';
+            }
+            _nullnei+="</tr>";
+        }
+        $tbody.html(_nullnei);
+
+        //遍历网格内容
+        var $slitd=$tbody.find("td");
+        for(var i=0; i<conter; i++)
+        {
+            $slitd.eq(i+monthFirst).html("<p>"+parseInt(i+1)+"</p>")
+        }
+
+        getSignInInfo();
+        signIn();
+
+        Funback();//给当前日加样式
+        Funmore();//本月未签到样式
+        // Funmonth();//查询已签到
+
+
+        function Funback(){
+            $slitd.eq(parseInt(de+monthFirst-1)).addClass('color')
+        }
+
+        function Funmore(){
+            for(var i=0; i<(de+monthFirst); i++)
+            {
+                $slitd.eq(i-1).addClass('weiqian')
+            }
+        }
+        function Funmonth(){
+            for(var i=1; i<=conter; i++)
+            {
+                for(var j=0; j<sliarrn.length;j++)
+                {
+                    if(i==sliarrn[j])
+                    {
+                        $slitd.eq(i-1).addClass('los')
+                    }
+                }
+            }
+        }
+
+        function acceptAward() {
+            $('.signLi .btn').not('.disabled').on('click',function(){
+                if(rewarding){
+                    return;
+                }
+                rewarding = true;
+                $(this).addClass('disabled');
+                var that = this;
+                var days = $(this).data('days');
+                $.ajax({
+                    url:'/signin/accept_award',
+                    method:'get',
+                    data:{days:days},
+                    dataType:'json',
+                    success:function (res) {
+                        if(res.error == 0){
+                            $(that).text('已领取');
+                            var cont = $(that).siblings('.txt').text();
+                            var html = '<div class="ac">恭喜您获得'+cont+'，奖品已发送到您的站内信</div>';
+                            $(document).alertModal({
+                                width : 400,
+                                content : html,
+                                callback: function(){
+                                    $("#alertClose").click();
+                                }
+                            });
+                        }else{
+                            $(this).removeClass('disabled');
+                            console.log(res.error_msg)
+                            var html = '<div class="ac">领取失败，请重新尝试领取！</div>';
+                            fail(html);
+                        }
+                        rewarding = false;
+                    }
+                })
+
+
+
+            })
+        }
+
+        function getSignInInfo() {
+            $.ajax({
+                url:'/signin/get_sign_in_date',
+                method:'get',
+                dataType:'json',
+                success:function (res) {
+                    if(res.error == 0){
+                        sliarrn = res.data.date;
+                        Funmonth();
+                        $("#text span").text(res.data.total);
+                        if(sliarrn.indexOf(de) >= 0){
+                            $button.addClass('disabled').text('已签到')
+                        }else{
+                            $button.removeClass('disabled')
+                        }
+                        accept_flag = res.data.flag;
+                        total = res.data.total
+                        $('.award').each(function () {
+                            var days = $(this).data('days');
+                            if(total >= days){
+                                $(this).removeClass('disabled');
+                            }
+                            if(accept_flag.indexOf(days) >= 0){
+                                $(this).addClass('disabled').text('已领取');
+                            }
+                        })
+                        acceptAward();
+                    }else {
+
+                    }
+                }
+            });
+        }
+
+        function signIn() {
+            $button.on("click",function(){
+                if($button.hasClass('disabled')){
+                    return;
+                }
+                if(signing){
+                    return;
+                }
+                if(wk == true)
+                {
+                    signing = true;
+                    $.ajax({
+                        url:'/signin/sign_in',
+                        method:'get',
+                        dataType:'json',
+                        success:function (res) {
+                            if(res.error == 0){
+                                sliarrn.push(de);//把当日传入已签
+                                Funmonth();	//再次查询签到
+                                //alert('签到成功！');
+                                total ++;
+                                $("#text span").text(sliarrn.length);
+                                $button.addClass('disabled').text('已签到');
+                                $('.award').each(function () {
+                                    var days = $(this).data('days');
+                                    if(total == days){
+                                        $(this).removeClass('disabled');
+                                    }
+                                })
+                                acceptAward();
+                            }else{
+                                var html = '<div class="ac">签到失败！</div>';
+                                fail(html);
+                            }
+                            signing = false;
+                        }
+                    })
+
+                }
+            })
+        }
+
+        function fail(html){
+            $(document).alertModal({
+                width : 400,
+                content : html,
+                callback: function(){
+                    $("#alertClose").click();
+                }
+            });
+        }
+
+    };
+</script>
+
+</body>
+
+<script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/a3bbca06f0954c8f327afe25b1e9165d5/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>
+</html>
+

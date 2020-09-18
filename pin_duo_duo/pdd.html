@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <script>!function (t) {
+        var e = t._plt = t._plt || [];
+        e.push(["tm", "ps", +new Date]), (t.requestAnimationFrame || t.webkitRequestAnimationFrame || t.setTimeout)(function () {
+            e.push(["tm", "fraf", +new Date])
+        })
+    }(window);</script>
+
+    <link rel="dns-prefetch" href="//static.pddpic.com">
+    <link rel="dns-prefetch" href="//funimg.pddpic.com">
+    <link rel="dns-prefetch" href="//omsproduction.yangkeduo.com">
+    <link rel="dns-prefetch" href="//avatar.yangkeduo.com">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta property="og:title" content="拼多多商城">
+    <meta property="og:description" content="风靡全国的拼团商城，优质商品新鲜直供，快来一起拼多多吧">
+    <meta property="og:image" content="https://funimg.pddpic.com/base/logo.jpg">
+    <title>拼多多</title>
+    <!-- head_contents -->
+
+
+    <link rel="preload" href="https://static.pddpic.com/assets/js/react_vendor_de60aa9fcbe63eaefb6f.js" as="script"
+          crossorigin="anonymous">
+
+
+    <link href="https://static.pddpic.com/assets/css/react_search_result_904c09631fe50f5ae3bb.css" rel="stylesheet">
+    <link rel="preload" href="https://static.pddpic.com/assets/js/vendor_065157f60a02ae6d7a51.js" as="script"
+          crossorigin="anonymous" defer="defer">
+    <link rel="preload" href="https://static.pddpic.com/assets/js/react_pdd_55fa4637ccdf301f4475.js" as="script"
+          crossorigin="anonymous" defer="defer">
+    <link rel="preload" href="https://static.pddpic.com/assets/js/react_search_result_9bca3ea219d66bbb6b92.js"
+          as="script" crossorigin="anonymous" defer="defer">
+
+
+    <script>!function () {
+        String.prototype.includes || (String.prototype.includes = function (e, n) {
+            return "number" != typeof n && (n = 0), !(n + e.length > this.length) && -1 !== this.indexOf(e, n)
+        });
+        var e = {
+            MiniProgram: /miniprogram/i,
+            WeChat: /MicroMessenger/i,
+            QQ: /QQ\/[\d\.]+\s+/i,
+            QQAndQzone: /(QQ\/[\d\.]+\s+)|Qzone/i,
+            QQApp: /QQ\//i,
+            Weibo: /Weibo/i,
+            Ios: /iphone|ipad|ipod/i,
+            IosVersion: /os (\d+)_(\d+)_?(\d+)?/i,
+            Android: /Android/i,
+            AndroidVersion: /Android (\d+).?(\d+)?.?(\d+)?/i,
+            AndroidNative: /phh_android_version/i,
+            IosNative: /phh_ios_version/i,
+            Mobile: /Android|webOS|iPhone|iPad|iPod/i,
+            MaJiaBaoAndroid: /mjt_version/i,
+            AndroidNativeVersion: /phh_android_version\/([^\s]+)\s*/i,
+            IosNativeVersion: /phh_ios_version\/([^\s]+)\s*/i,
+            MecoWebViewCore: /MecoCore\/(\d)/i,
+            MecoWebViewSdk: /MecoSDK\/(\d)/i
+        }, n = {
+            Unknown: "unknown",
+            PddIOS: "ios",
+            PddAndroid: "android",
+            MaJiaBaoAndroid: "mjtAndroid",
+            PDDTinyAndorid: "tinyAndroid",
+            WeChat: "wechat",
+            Weibo: "weibo",
+            QQ: "qq",
+            QQApp: "qqapp",
+            WxApp: "wxapp"
+        };
+
+        function i(i, o) {
+            var t = o === n.PddAndroid ? e.AndroidNativeVersion : e.IosNativeVersion, r = i.match(t);
+            return r && r[1] || ""
+        }
+
+        function o(e, n) {
+            [e, n].forEach(function (e) {
+                if ("string" != typeof e) throw new TypeError("Invalid argument expected string")
+            });
+            for (var i = function (e) {
+                return e.split(".").map(function (e) {
+                    return parseInt(e, 10) || 0
+                })
+            }, o = i(e), t = i(n), r = Math.max(o.length, t.length), d = 0; d < r; ++d) {
+                var a = o[d] || 0, s = t[d] || 0;
+                if (a !== s) return a - s
+            }
+            return 0
+        }
+
+        function t() {
+            var n = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "";
+            return e.MiniProgram.test(n) || "undefined" != typeof window && "miniprogram" === window.__wxjs_environment
+        }
+
+        function r() {
+            var i = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "";
+            return e.AndroidNative.test(i) ? i.includes("app_type/tiny") ? n.PDDTinyAndorid : n.PddAndroid : e.IosNative.test(i) ? n.PddIOS : e.WeChat.test(i) ? t(i) ? n.WxApp : n.WeChat : e.Weibo.test(i) ? n.Weibo : e.QQApp.test(i) && t(i) ? n.QQApp : e.QQAndQzone.test(i) ? n.QQ : e.MaJiaBaoAndroid.test(i) ? n.MaJiaBaoAndroid : n.Unknown
+        }
+
+        var d = Object.assign || function (e) {
+            for (var n = 1; n < arguments.length; n++) {
+                var i = arguments[n];
+                for (var o in i) Object.prototype.hasOwnProperty.call(i, o) && (e[o] = i[o])
+            }
+            return e
+        }, a = window;
+        a._htmllog = function (e, t) {
+            var s = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : {};
+            if (!(window.__ERROR_SAMPLE_RATE__ && Math.random() > window.__ERROR_SAMPLE_RATE__) && a.XMLHttpRequest) {
+                var p = "unknow", c = (document.cookie || "").split("; ").reduce(function (e, n) {
+                    var i = n.split("=");
+                    return e[i[0]] = i[1], e
+                }, {}), u = a.navigator;
+                u && u.connection && (p = u.connection.effectiveType || u.connection.type || "unknown");
+                var h = {unknow: 0, wifi: 1, "2g": 2, "3g": 3, "4g": 4}, _ = /(\w+).html/.exec(document.referrer),
+                    g = r(navigator.userAgent);
+                if ("html_error" === e && (g === n.PddAndroid || g === n.PddIOS)) {
+                    var l = i(navigator.userAgent, g);
+                    window.pinbridge && o(l, "5.8.0") >= 0 && window.pinbridge.callNative("JSRecovery", "tryReload", {
+                        error_info: [{
+                            message: t,
+                            type: e
+                        }]
+                    })
+                }
+                var v = d({
+                        log_version: "1.0.0",
+                        error_msg: e,
+                        page: t,
+                        page_url: location.href,
+                        refer_page_name: _ && _[1],
+                        network: h[p] || 0,
+                        user_id: c.pdd_user_id || "",
+                        time: +new Date,
+                        platform: g
+                    }, s), f = new XMLHttpRequest,
+                    w = ["m.hutaojie.com", "panduoduo.yangkeduo.com"].indexOf(location.hostname) > -1 ? "https://tne.htj.yiran.com/tne.gif" : "https://tne.pinduoduo.com/tne.gif";
+                f.open("POST", w, !0), f.setRequestHeader("Content-Type", "text/plain;charset=UTF-8"), f.withCredentials = !0, f.send(JSON.stringify(v))
+            }
+        }, a._peh = function (e, n, i, o, t) {
+            if (a.XMLHttpRequest && (!e || e.target !== a)) {
+                var r = e + ", " + n + ", " + i + ", " + o + ", " + t, d = "html_error";
+                t && t.stack && (d += "_js", r = e + ";" + t.stack.replace(/\\n/gi, "").split(/\bat\b/).slice(0, 5).join("@")), a._htmllog(d, r)
+            }
+        }, a._peh._raw = !0, a.addEventListener("error", function (e) {
+            if ("[object Event]" === Object.prototype.toString.call(e)) {
+                var n = "html_error", i = "", o = e.srcElement;
+                o ? (n += "_" + String.prototype.toLowerCase.call(o.nodeName), i = "Error: " + o.outerHTML) : i = "Error: " + JSON.stringify(e), a._htmllog(n, i)
+            }
+        }, !0), a.onerror = a._peh
+    }();</script>
+
+    <script>var pinbridge = function (e) {
+        var n, t = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (e) {
+            return typeof e
+        } : function (e) {
+            return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
+        };
+        n = function () {
+            try {
+                if (top.pinbridge) return top.pinbridge
+            } catch (e) {
+            }
+            var e = 0, n = {}, r = {}, i = window._fastJsN ? function (e, n, t, i) {
+                var o = "function" == typeof window._fastJsN.callNative && window._fastJsN.callNative(e, n, t ? JSON.stringify(t) : null, i);
+                return (o = o ? JSON.parse(o) : null) && o.hasOwnProperty("errorCode") && (r.callback(o.callID, o.errorCode, o.data), r.removeCallback(o.callID)), o
+            } : function (e, n, t, r) {
+                !function (e, n) {
+                    if (window && window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.hybridAPIMessageHandler) window.webkit.messageHandlers.hybridAPIMessageHandler.postMessage({url: e}); else {
+                        if (null != (navigator.userAgent || navigator.vendor || window.opera).match(/phh_android_version/i)) return alert(e);
+                        var t = document.createElement("iframe");
+                        t.setAttribute("src", e), t.setAttribute("style", "display:none;"), t.setAttribute("height", "0px"), t.setAttribute("width", "0px"), t.setAttribute("frameborder", "0"), document.body.appendChild(t), t.parentNode.removeChild(t), t = null
+                    }
+                }("pinbridge:///request?t=" + e + "&m=" + n + "&p=" + encodeURIComponent(JSON.stringify(t)) + "&c=" + r)
+            };
+            return r = {
+                check: function (e, n, t, i) {
+                    e && n || t && t(!1), r.callNative("AMBridgeAPI", "check", {
+                        module_name: e,
+                        method_name: n
+                    }, function (e) {
+                        t && t(e && e.exist)
+                    }, function () {
+                        i ? i() : t && t(!1)
+                    })
+                }, callback: function (e, t, r) {
+                    r = r || {};
+                    var i = n[e];
+                    i && (i.func ? i.func(t, r) : 0 === t && i.onSuccess ? i.onSuccess(r) : 0 !== t && i.onError && i.onError(r, t))
+                }, callNative: function (r, o, a, c, l) {
+                    a = a || {};
+                    var d = ++e;
+                    return n[d] = {onSuccess: c, onError: l}, a = function r(i) {
+                        if ("object" !== (void 0 === i ? "undefined" : t(i))) return i;
+                        var o = {};
+                        for (var a in "[object Array]" === Object.prototype.toString.call(i) && (o = []), i) if (i.hasOwnProperty(a)) {
+                            var c = i[a];
+                            if ("function" == typeof c) {
+                                var l = ++e;
+                                n[l] = {func: c}, o[a] = "__aimi_function_" + l
+                            } else "object" === (void 0 === c ? "undefined" : t(c)) && null !== c ? o[a] = r(c) : o[a] = c
+                        }
+                        return o
+                    }(a), i(r, o, a, d)
+                }, callbackFromNative: function (e, n, t) {
+                    r.callback(e, n, t)
+                }, removeCallback: function (e) {
+                    delete n[e]
+                }, decodeFunctions: function (e) {
+                    if ("object" === (void 0 === e ? "undefined" : t(e))) {
+                        var n = function (n) {
+                            if (!e.hasOwnProperty(n)) return "continue";
+                            var i, o, a, c = e[n];
+                            if ("string" == typeof c && 0 === c.indexOf("__aimi_function_")) {
+                                var l = c.substring("__aimi_function_".length).split("_");
+                                3 === l.length && (i = parseInt(l[0]), o = parseInt(l[1]), a = parseInt(l[2]), isNaN(i) || isNaN(o) || isNaN(a) || (e[n] = function (e, n) {
+                                    r.callNative("AMBridgeAPI", "callback", {
+                                        bridge_id: o,
+                                        context_id: a,
+                                        call_id: i,
+                                        error_code: e,
+                                        response: n
+                                    })
+                                }))
+                            } else "object" === (void 0 === c ? "undefined" : t(c)) && r.decodeFunctions(c)
+                        };
+                        for (var i in e) n(i)
+                    }
+                }
+            }
+        }(), window.pinbridge = n;
+        var r = n, i = r.callbackFromNative, o = r.callNative, a = r.check, c = r.callback, l = r.decodeFunctions,
+            d = r.removeCallback, u = n;
+        return e.callNative = o, e.callback = c, e.callbackFromNative = i, e.check = a, e.decodeFunctions = l, e.default = u, e.removeCallback = d, e
+    }({});</script>
+
+
+    <script>!function (t) {
+        var n = t._plt = t._plt || [];
+        n.push(["tm", "fp", +new Date]), document.addEventListener("DOMContentLoaded", function () {
+            n.push(["tm", "dr", +new Date])
+        }), t.addEventListener("load", function () {
+            n.push(["tm", "ld", +new Date])
+        })
+    }(window);</script>
+
+    <template>new</template>
+</head>
+<body class="body">
+<script>
+    var userAgent = navigator.userAgent;
+    var RegAndroidNative = /phh_android_version/i;
+    var RegIosNative = /phh_ios_version/i;
+    var isNativePlatform = RegAndroidNative.test(userAgent) || RegIosNative.test(userAgent);
+    if (isNativePlatform) {
+        window.pinbridge && window.pinbridge.callNative('JSUIControl', 'hideLoading');
+    }
+</script>
+
+
+<div id="main"></div>
+
+
+<script>
+    window.rawData = null;
+</script>
+
+<script>!function (e) {
+    function r(r) {
+        for (var a, c, d = r[0], f = r[1], i = r[2], l = 0, s = []; l < d.length; l++) c = d[l], n[c] && s.push(n[c][0]), n[c] = 0;
+        for (a in f) Object.prototype.hasOwnProperty.call(f, a) && (e[a] = f[a]);
+        for (u && u(r); s.length;) s.shift()();
+        return o.push.apply(o, i || []), t()
+    }
+
+    function t() {
+        for (var e, r = 0; r < o.length; r++) {
+            for (var t = o[r], a = !0, c = 1; c < t.length; c++) {
+                var f = t[c];
+                0 !== n[f] && (a = !1)
+            }
+            a && (o.splice(r--, 1), e = d(d.s = t[0]))
+        }
+        return e
+    }
+
+    var a = {}, c = {0: 0}, n = {0: 0}, o = [];
+
+    function d(r) {
+        if (a[r]) return a[r].exports;
+        var t = a[r] = {i: r, l: !1, exports: {}};
+        return e[r].call(t.exports, t, t.exports, d), t.l = !0, t.exports
+    }
+
+    d.e = function (e) {
+        var r = [];
+        c[e] ? r.push(c[e]) : 0 !== c[e] && {
+            2: 1,
+            6: 1,
+            16: 1,
+            94: 1
+        }[e] && r.push(c[e] = new Promise((function (r, t) {
+            for (var a = "assets/css/" + ({
+                1: "Charge",
+                2: "ChargeQb",
+                3: "ExploreMall",
+                4: "FloatingPopup",
+                5: "GoodsHotTagHeader",
+                6: "GoodsList",
+                7: "GuessQuery",
+                8: "Payment",
+                9: "RiskControl",
+                10: "SearchAddressFilter",
+                11: "SearchBar2",
+                12: "SearchBarUniversal",
+                13: "SearchCoupons",
+                14: "SearchExplore",
+                15: "SearchResult",
+                16: "SearchView",
+                17: "SearchViewPromotion",
+                18: "TopicRankHeader",
+                19: "mallactfilter",
+                20: "preloadFallback",
+                21: "react_anti",
+                94: "widgets"
+            }[e] || e) + "_" + {
+                1: "31d6cfe0d16ae931b73c",
+                2: "230cd9baba454f418317",
+                3: "31d6cfe0d16ae931b73c",
+                4: "31d6cfe0d16ae931b73c",
+                5: "31d6cfe0d16ae931b73c",
+                6: "904c09631fe50f5ae3bb",
+                7: "31d6cfe0d16ae931b73c",
+                8: "31d6cfe0d16ae931b73c",
+                9: "31d6cfe0d16ae931b73c",
+                10: "31d6cfe0d16ae931b73c",
+                11: "31d6cfe0d16ae931b73c",
+                12: "31d6cfe0d16ae931b73c",
+                13: "31d6cfe0d16ae931b73c",
+                14: "31d6cfe0d16ae931b73c",
+                15: "31d6cfe0d16ae931b73c",
+                16: "904c09631fe50f5ae3bb",
+                17: "31d6cfe0d16ae931b73c",
+                18: "31d6cfe0d16ae931b73c",
+                19: "31d6cfe0d16ae931b73c",
+                20: "31d6cfe0d16ae931b73c",
+                21: "31d6cfe0d16ae931b73c",
+                94: "904c09631fe50f5ae3bb"
+            }[e] + ".css", n = d.p + a, o = document.getElementsByTagName("link"), f = 0; f < o.length; f++) {
+                var i = (u = o[f]).getAttribute("data-href") || u.getAttribute("href");
+                if ("stylesheet" === u.rel && (i === a || i === n)) return r()
+            }
+            var l = document.getElementsByTagName("style");
+            for (f = 0; f < l.length; f++) {
+                var u;
+                if ((i = (u = l[f]).getAttribute("data-href")) === a || i === n) return r()
+            }
+            var s = document.createElement("link");
+            s.rel = "stylesheet", s.type = "text/css", s.onload = r, s.onerror = function (r) {
+                var a = r && r.target && r.target.src || n,
+                    o = new Error("Loading CSS chunk " + e + " failed.\n(" + a + ")");
+                o.code = "CSS_CHUNK_LOAD_FAILED", o.request = a, delete c[e], s.parentNode.removeChild(s), t(o)
+            }, s.href = n, document.getElementsByTagName("head")[0].appendChild(s)
+        })).then((function () {
+            c[e] = 0
+        })));
+        var t = n[e];
+        if (0 !== t) if (t) r.push(t[2]); else {
+            var a = new Promise((function (r, a) {
+                t = n[e] = [r, a]
+            }));
+            r.push(t[2] = a);
+            var o, f = document.createElement("script");
+            f.charset = "utf-8", f.timeout = 120, d.nc && f.setAttribute("nonce", d.nc), f.src = function (e) {
+                return d.p + "assets/js/" + ({
+                    1: "Charge",
+                    2: "ChargeQb",
+                    3: "ExploreMall",
+                    4: "FloatingPopup",
+                    5: "GoodsHotTagHeader",
+                    6: "GoodsList",
+                    7: "GuessQuery",
+                    8: "Payment",
+                    9: "RiskControl",
+                    10: "SearchAddressFilter",
+                    11: "SearchBar2",
+                    12: "SearchBarUniversal",
+                    13: "SearchCoupons",
+                    14: "SearchExplore",
+                    15: "SearchResult",
+                    16: "SearchView",
+                    17: "SearchViewPromotion",
+                    18: "TopicRankHeader",
+                    19: "mallactfilter",
+                    20: "preloadFallback",
+                    21: "react_anti",
+                    94: "widgets"
+                }[e] || e) + "_" + {
+                    1: "c16617c64c08847d3607",
+                    2: "90646853b3f4eb71331a",
+                    3: "83a584847f2217f18dc9",
+                    4: "3ca50cefe5d33a4a2989",
+                    5: "dae0fb9974a4abd6d6fe",
+                    6: "d8ea1d20848c713e3fc4",
+                    7: "478ebd3b78facd7de966",
+                    8: "8cb893e8d07088901e19",
+                    9: "96f637404fc6d44b27ea",
+                    10: "45e19d8be833c04a0811",
+                    11: "a1c17e0e3e9b738cb803",
+                    12: "2f739d1a3db7786684d4",
+                    13: "413640477e1d1a7ee902",
+                    14: "27c1dc8133eccce0f295",
+                    15: "54cf211362de1401c1b0",
+                    16: "4bc9d5f7d0ddc28f65ab",
+                    17: "6092739e440064571771",
+                    18: "da900c0d70dd5e984672",
+                    19: "fc716d0ed2752787f4dd",
+                    20: "86ff2f68928e4bdb6a01",
+                    21: "6cb56cf93717c8100747",
+                    94: "7cf8e0235a570bf0407b"
+                }[e] + ".js"
+            }(e);
+            var i = new Error;
+            o = function (r) {
+                f.onerror = f.onload = null, clearTimeout(l);
+                var t = n[e];
+                if (0 !== t) {
+                    if (t) {
+                        var a = r && ("load" === r.type ? "missing" : r.type), c = r && r.target && r.target.src;
+                        i.message = "Loading chunk " + e + " failed.\n(" + a + ": " + c + ")", i.name = "ChunkLoadError", i.type = a, i.request = c, t[1](i)
+                    }
+                    n[e] = void 0
+                }
+            };
+            var l = setTimeout((function () {
+                o({type: "timeout", target: f})
+            }), 12e4);
+            f.onerror = f.onload = o, document.head.appendChild(f)
+        }
+        return Promise.all(r)
+    }, d.m = e, d.c = a, d.d = function (e, r, t) {
+        d.o(e, r) || Object.defineProperty(e, r, {enumerable: !0, get: t})
+    }, d.r = function (e) {
+        "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {value: "Module"}), Object.defineProperty(e, "__esModule", {value: !0})
+    }, d.t = function (e, r) {
+        if (1 & r && (e = d(e)), 8 & r) return e;
+        if (4 & r && "object" == typeof e && e && e.__esModule) return e;
+        var t = Object.create(null);
+        if (d.r(t), Object.defineProperty(t, "default", {
+            enumerable: !0,
+            value: e
+        }), 2 & r && "string" != typeof e) for (var a in e) d.d(t, a, function (r) {
+            return e[r]
+        }.bind(null, a));
+        return t
+    }, d.n = function (e) {
+        var r = e && e.__esModule ? function () {
+            return e.default
+        } : function () {
+            return e
+        };
+        return d.d(r, "a", r), r
+    }, d.o = function (e, r) {
+        return Object.prototype.hasOwnProperty.call(e, r)
+    }, d.p = "", d.oe = function (e) {
+        throw console.error(e), e
+    };
+    var f = window.__LOADABLE_LOADED_CHUNKS__ = window.__LOADABLE_LOADED_CHUNKS__ || [], i = f.push.bind(f);
+    f.push = r, f = f.slice();
+    for (var l = 0; l < f.length; l++) r(f[l]);
+    var u = i;
+    t()
+}([]);</script>
+
+
+<script src="https://static.pddpic.com/assets/js/react_vendor_de60aa9fcbe63eaefb6f.js" crossorigin defer></script>
+
+
+<script>window.__NAVIGATION_MAP__ = {
+    "download.html": "matthew_download.html",
+    "market_download.html": "undefined.html",
+    "down_market_download.html": "undefined.html",
+    "comm_order_snapshot.html": "undefined.html",
+    "miff_transplantation_pretence.html": "refresh_slew_forlorn.html",
+    "group185.html": "group186.html",
+    "pjlkvgcf.html": "transac_virtual_card_pwd.html",
+    "ddplteec.html": "transac_virtual_card_pwd.html",
+    "svideo_personal.html": "fyxmkief.html?page_key=1"
+};</script>
+
+
+<script>window.__CMT_AMPLIFY_RATE__ = 10;</script>
+
+
+<script>window.__ERROR_SAMPLE_RATE__ = 1;</script>
+
+
+<script>window.__CMT_HOST__ = 'cmtw.pinduoduo.com';</script>
+
+
+<script>window.leo = {"data": {"search_explore": "onlyHotQuery"}, "csrFallback": false, "fallbackData": {}};</script>
+
+
+<script>
+    window.__webpack_public_path__ = "https://static.pddpic.com/";
+</script>
+
+
+<script type="text/javascript" src="https://static.pddpic.com/assets/js/vendor_065157f60a02ae6d7a51.js"
+        crossorigin="anonymous" defer="defer"></script>
+<script type="text/javascript" src="https://static.pddpic.com/assets/js/react_pdd_55fa4637ccdf301f4475.js"
+        crossorigin="anonymous" defer="defer"></script>
+<script type="text/javascript" src="https://static.pddpic.com/assets/js/react_search_result_9bca3ea219d66bbb6b92.js"
+        crossorigin="anonymous" defer="defer"></script>
+
+
+<script>window;</script>
+
+</body>
+</html>

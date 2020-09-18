@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="995de6c7-1f00-4b86-8b02-5b2a74ccae31" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d3uUFeFfAafTu4fdwzf3sJiWKM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qian_gua" />
+  </component>
+  <component name="RunManager" selected="Python.ceshi">
+    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_rank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nr_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new_rank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nr_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ceshi" />
+        <item itemvalue="Python.nr_spider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="995de6c7-1f00-4b86-8b02-5b2a74ccae31" name="Default Changelist" comment="" />
+      <created>1591666111279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591666111279</updated>
+      <workItem from="1591666116596" duration="7855000" />
+      <workItem from="1591772114772" duration="1786000" />
+      <workItem from="1591837992807" duration="3321000" />
+      <workItem from="1591854900764" duration="10338000" />
+      <workItem from="1591925488003" duration="12375000" />
+      <workItem from="1592290155921" duration="5617000" />
+      <workItem from="1592356737583" duration="1090000" />
+      <workItem from="1592374255096" duration="673000" />
+      <workItem from="1592442412137" duration="270000" />
+      <workItem from="1592450624481" duration="96000" />
+      <workItem from="1593323981727" duration="16000" />
+      <workItem from="1593745138852" duration="8160000" />
+      <workItem from="1594007794020" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="764" y="498" key="FileChooserDialogImpl" timestamp="1594007811070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="498" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594007811070" />
+    <state width="1110" height="239" key="GridCell.Tab.0.bottom" timestamp="1593766632512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593766632512" />
+    <state width="1110" height="239" key="GridCell.Tab.0.center" timestamp="1593766632512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593766632512" />
+    <state width="1110" height="239" key="GridCell.Tab.0.left" timestamp="1593766632512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593766632512" />
+    <state width="1110" height="239" key="GridCell.Tab.0.right" timestamp="1593766632512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593766632512" />
+    <state width="1110" height="239" key="GridCell.Tab.1.bottom" timestamp="1593766632513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593766632513" />
+    <state width="1110" height="239" key="GridCell.Tab.1.center" timestamp="1593766632512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593766632512" />
+    <state width="1110" height="239" key="GridCell.Tab.1.left" timestamp="1593766632512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593766632512" />
+    <state width="1110" height="239" key="GridCell.Tab.1.right" timestamp="1593766632513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593766632513" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nr_spider.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nr_spider.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/new_rank$nr_spider.coverage" NAME="nr_spider Coverage Results" MODIFIED="1593748455928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_rank$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1593755448520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

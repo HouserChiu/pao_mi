@@ -1,0 +1,46 @@
+先使用androidkiller进行反编译，不能成功使用jeb(编译出来的代码含有smali代码),进入解压目录，运行jeb_wincon.bat
+
+jadx使用：进入bin目录，输入jadx -d classes.dex(编译.dex为java代码)
+
+google play 一直等待下载 ——>应用管理、强行停止、清除缓存、清楚数据、重新下载
+
+Android逆向助手:改动之后重签名
+
+Frida使用过程：单看反编译出来的代码很难得知某个函数在被调用是所传入的参数和其返回值，使用Hook用一个新的函数替代掉原来的函数，在这个新的函数中可以实现目的
+使用过程：安装pip install frida-tools
+frida官方github上下载frida-server-android，下载之后解压命名为frida-server，安装到手机上：
+powershell中运行：
+adb root
+adb push frida-server /data/local/tmp/
+adb shell "chmod 755 /data/local/tmp/frida-server" #赋予可执行权限
+adb shell
+/data/local/tmp/frida-server &  #运行frida-server
+   端口转发：adb -s emulator-5554 forward  tcp:27042 tcp:27042  #-s后面跟设备名称，单个设备则不需要
+报错1：Unable to start: Error binding to address: Address already in use
+ps | grep frida  #查看端口
+kill -9 13626  #结束相应端口
+
+报错2：device not found
+process = frida.get_usb_device(1).attach('com.example.seccon2015.rock_paper_scissors')
+改为：
+process = frida.get_usb_device(1).attach('com.example.seccon2015.rock_paper_scissors')
+设置timeout
+
+反编译文件中 Resources-manifest.xml文件为清单文件，标明app入口类，首先执行onCreate方法
+
+普通方法：
+私有方法：
+公开方法：
+静态方法：
+
+
+构造方法：new+类名，和类名相同的函数为构造函数 （money.$init.implementation）
+
+重载方法:函数名字一样，传入参数或数据类型不同 utils.test.overload('int','Java lang String').implementation  #overload传入类的全路径
+
+模拟器抓包需要选择allow all connect
+
+frida后先ctrl+c，然后再ctrl+c
+
+
+

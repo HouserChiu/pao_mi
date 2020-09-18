@@ -1,0 +1,48 @@
+https://66bang.com/api/v1/rank/search/hotvideos/
+https://66bang.com/home/#/hot/video
+
+https://66bang.com/home/api/v1/rank/follower_goup/
+https://66bang.com/home/#/follower_goup/
+
+https://66bang.com/api/v1/rank/follower_goup/2020/05/07/?cate_name=
+page=2
+pageSize=20
+dateType=day
+
+https://66bang.com/api/v1/account/mcn/mcnlist/?keyword=
+cate_ids=-1
+author_num_min=0
+author_num_max=99999999
+sort_type=mcn_sum_follower
+page=1
+pagesize=20
+
+https://66bang.com/api/v1/account/mcn/mcnlist/?keyword=
+cate_ids=-1
+author_num_min=0
+author_num_max=99999999
+sort_type=mcn_sum_follower
+page=2
+pagesize=20
+
+https://66bang.com/api/v1/account/mcn/mcnlist/?keyword=
+cate_ids=-1
+author_num_min=0
+author_num_max=99999999
+sort_type=mcn_sum_follower
+page=3
+pagesize=20
+
+
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Authorization: Token 32c6afebbe043c79b3637cad3492d7b261b59284
+Connection: keep-alive
+Host: 66bang.com
+Referer: https://66bang.com/home/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+SESSIONID: session_id_dfb7ada0029f54fd9f5bbec6d35232eb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36

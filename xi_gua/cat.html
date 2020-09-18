@@ -1,0 +1,1513 @@
+<style>
+    .wrapper-col-all .d-main {
+        left: 0px !important;
+    }
+</style>
+
+<div class="d-main d-main-w">
+
+    <div class="tab-bar">
+        <ul class="tab-nav tab-nav-rank">
+            <li class="active"
+            >
+                <a href="javascript:;" data-url="#/rank/IndustryNew" class="bar-a"><i class="icon-ri"></i>行业排行榜</a>
+            </li>
+            <li>
+                <a href="javascript:;" data-url="#/rank/Area" class="bar-a rank-area"><i class="icon-ra"></i>地区排行榜</a>
+            </li>
+            <li>
+                <a href="javascript:;" data-url="#/rank/Original" class="bar-a rank-area"><i class="icon-original"></i>原创排行榜</a>
+            </li>
+            <li>
+                <a href="javascript:;" data-url="#/rank/Reward" class="bar-a"><i class="icon-zs"></i>赞赏排行榜</a>
+            </li>
+            <li>
+                <a href="javascript:;" data-url="#/rank/GrowthNew" class="bar-a"><i class="icon-growth"></i>成长排行榜<span
+                        class="badge-new">NEW</span></a>
+            </li>
+            <li>
+                <a href="javascript:;" data-url="#/rank/Comment" class="bar-a"><i class="icon-message"></i>评论排行榜</a>
+            </li>
+            <li>
+                <a href="javascript:;" data-url="#/rank/UserDefined" class="bar-a"><i
+                        class="icon-defined"></i>自定义排行榜</a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        $('.bar-a').click(function () {
+            var url = $(this).data("url").trim();
+            if (location.hash === url) {
+                goHash();
+                return;
+            }
+            location.hash = url;
+        });
+    </script>
+    <div class="rank-industry">
+        <div class="head-info">
+            <div class="senior-search senior-search-new">
+                <div class="choose-conditions js-choose-conditions">
+                    <div class="screen-item-list js-search-condtion-industry">
+                        <div class="item-t space-distance">行业类别：</div>
+                        <div class="other-conditions screen-item screen-item-p" id="js-id-industry">
+                            <span class="tag-choose">
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="        active
+" data-categoryid="17" name="industry-item">资讯</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="10" name="industry-item">财经</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="3" name="industry-item">教育</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="6" name="industry-item">娱乐</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="5" name="industry-item">科技</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="9" name="industry-item">生活</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="21" name="industry-item">体育</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="24" name="industry-item">游戏动漫</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="7" name="industry-item">文化</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="20" name="industry-item">美食</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="2" name="industry-item">情感</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="58" name="industry-item">文摘</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="11" name="industry-item">汽车</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="8" name="industry-item">旅游</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="22" name="industry-item">时尚</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="16" name="industry-item">美妆护肤</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="14" name="industry-item">房产</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="4" name="industry-item">健康</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="26" name="industry-item">军事</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="27" name="industry-item">数码</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="1" name="industry-item">搞笑趣闻</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="12" name="industry-item">职场管理</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="19" name="industry-item">招聘</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="59" name="industry-item">媒体</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="15" name="industry-item">政务</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="29" name="industry-item">萌宠</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="13" name="industry-item">三农</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="25" name="industry-item">星座运势</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="30" name="industry-item">摄影</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="23" name="industry-item">宗教</a>
+                                    <a href="javascript:;" onclick="industryCategory.clickLv1(this)" class="
+" data-categoryid="28" name="industry-item">收藏</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="choose-conditions js-choose-conditions js-category2">
+                    <div class="screen-item-list js-search-condtion-industry">
+                        <div data-pcid="17" class="item-t space-distance" style="        display: block;
+">行业细分：
+                        </div>
+                        <div data-pcid="17" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: block;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="45"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">民生</a>
+                                            <a subcategory="1" data-categoryid="33"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">地方</a>
+                                    </span>
+                        </div>
+                        <div data-pcid="10" class="item-t space-distance" style="        display: none;
+">行业细分：
+                        </div>
+                        <div data-pcid="10" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: none;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="44"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">区块链</a>
+                                            <a subcategory="1" data-categoryid="43"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">银行保险</a>
+                                            <a subcategory="1" data-categoryid="42"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">投资理财</a>
+                                    </span>
+                        </div>
+                        <div data-pcid="3" class="item-t space-distance" style="        display: none;
+">行业细分：
+                        </div>
+                        <div data-pcid="3" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: none;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="53"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">母婴早教</a>
+                                            <a subcategory="1" data-categoryid="52"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">K12教育</a>
+                                            <a subcategory="1" data-categoryid="56"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">高校教育</a>
+                                            <a subcategory="1" data-categoryid="57"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">非学历教育</a>
+                                    </span>
+                        </div>
+                        <div data-pcid="6" class="item-t space-distance" style="        display: none;
+">行业细分：
+                        </div>
+                        <div data-pcid="6" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: none;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="61"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">音乐</a>
+                                            <a subcategory="1" data-categoryid="37"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">影视</a>
+                                    </span>
+                        </div>
+                        <div data-pcid="5" class="item-t space-distance" style="        display: none;
+">行业细分：
+                        </div>
+                        <div data-pcid="5" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: none;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="36"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">硬科技</a>
+                                            <a subcategory="1" data-categoryid="35"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">互联网</a>
+                                    </span>
+                        </div>
+                        <div data-pcid="9" class="item-t space-distance" style="        display: none;
+">行业细分：
+                        </div>
+                        <div data-pcid="9" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: none;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="41"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">花艺</a>
+                                            <a subcategory="1" data-categoryid="40"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">家装</a>
+                                    </span>
+                        </div>
+                        <div data-pcid="21" class="item-t space-distance" style="        display: none;
+">行业细分：
+                        </div>
+                        <div data-pcid="21" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: none;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="49"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">健身</a>
+                                            <a subcategory="1" data-categoryid="48"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">篮球</a>
+                                            <a subcategory="1" data-categoryid="47"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">足球</a>
+                                    </span>
+                        </div>
+                        <div data-pcid="24" class="item-t space-distance" style="        display: none;
+">行业细分：
+                        </div>
+                        <div data-pcid="24" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: none;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="50"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">动漫</a>
+                                            <a subcategory="1" data-categoryid="60"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">游戏</a>
+                                    </span>
+                        </div>
+                        <div data-pcid="7" class="item-t space-distance" style="        display: none;
+">行业细分：
+                        </div>
+                        <div data-pcid="7" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: none;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="62"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">艺术</a>
+                                            <a subcategory="1" data-categoryid="38"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">历史</a>
+                                    </span>
+                        </div>
+                        <div data-pcid="20" class="item-t space-distance" style="        display: none;
+">行业细分：
+                        </div>
+                        <div data-pcid="20" class="other-conditions screen-item screen-item-p" id="js-id-industry"
+                             style="        display: none;
+">
+                                    <span class="tag-choose">
+                                            <a subcategory="1" data-categoryid="39"
+                                               onclick="industryCategory.clickLv2(this)" class="
+ js-detail-child">厨艺</a>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ad-hot-head head-info-bar rank-info-bar">
+                    <div class="btn-group" role="group" aria-label="..." id="pubFilter">
+                        <button type="button" onclick="RankPeriodTrigger(1)" class="btn btn-default active"
+                        >日榜
+                        </button>
+                        <button type="button" onclick="RankPeriodTrigger(7)" class="btn btn-default"
+                        >周榜
+                        </button>
+                        <button type="button" onclick="RankPeriodTrigger(30)" class="btn btn-default"
+                        >月榜
+                        </button>
+                    </div>
+                    <div class="ac-date">
+                        <div class="sentiment-time-control">
+                            <div class="type-choose">
+                                <select data-select style=" width:180px;" id="IndustryRankDate">
+                                    <option value="20200614" selected
+                                    >2020年06月14日
+                                    </option>
+                                    <option value="20200613">2020年06月13日</option>
+                                    <option value="20200612">2020年06月12日</option>
+                                    <option value="20200611">2020年06月11日</option>
+                                    <option value="20200610">2020年06月10日</option>
+                                    <option value="20200609">2020年06月09日</option>
+                                    <option value="20200608">2020年06月08日</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control-search-box">
+                        <div class="control-search-1">
+                            <input type="text" placeholder="请输入公众号名称或ID" name="searchkeyword">
+                        </div>
+                        <a href="javascript:;" class="control-search-1-submit biz-search">搜索</a>
+                        <a href="javascript:;" class="btns-unified btns-download" id="result-export">导出结果</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-col-right wrapper-col-all">
+            <div class="table-thead">
+                <table class="table">
+                    <colgroup>
+                        <col width="110">
+                        <col>
+                        <col width="100">
+                        <col width="120">
+                        <col width="125">
+                        <col width="125">
+                        <col width="125">
+                        <col width="95">
+                        <col width="105">
+                        <col width="108">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="text-left">排行</th>
+                        <th class="text-left">公众号</th>
+                        <th>上榜次数</th>
+                        <th>预估活跃粉丝</th>
+                        <th>头条平均阅读</th>
+                        <th>头条平均点赞</th>
+                        <th>头条平均评论</th>
+                        <th>日发文数</th>
+                        <th>西瓜指数 <i class="icon-circle" data-toggle="tooltip" data-placement="top"
+                                    data-original-title="西瓜指数是系统基于公众号的活跃度、原创度、内容质量度、文章平均阅读等数据分析得出的综合评分"></i></th>
+                        <th>操作</th>
+                    </tr>
+
+                    </thead>
+                </table>
+            </div>
+            <table class="table">
+                <colgroup>
+                    <col width="110">
+                    <col>
+                    <col width="100">
+                    <col width="120">
+                    <col width="125">
+                    <col width="125">
+                    <col width="125">
+                    <col width="95">
+                    <col width="105">
+                    <col width="100">
+                </colgroup>
+
+                <tbody>
+
+
+                <tr>
+                    <td class="text-left">
+                        <span class="rank rank1">1</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>1</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA5OTQyMDgyOQ==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="758" data-key="61539e">冯站长之家</span><em>fgzadmin</em></span>
+                    </td>
+
+                    <td>
+                        861
+                    </td>
+                    <td>1644.12万</td>
+                    <td>10万+</td>
+
+
+                    <td>22012</td>
+                    <td>36</td>
+                    <td>8</td>
+                    <td class="tb-xigua-index">1746.6</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="758"
+                           data-key="61539e">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank rank2">2</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>1</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzUxNjUxMTg3OA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="4298022" data-key="be3139">占豪</span><em>zhanhao668</em></span>
+                    </td>
+
+                    <td>
+                        234
+                    </td>
+                    <td>1485.14万</td>
+                    <td>10万+</td>
+
+
+                    <td>17300</td>
+                    <td>98</td>
+                    <td>8</td>
+                    <td class="tb-xigua-index">1635.1</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="4298022"
+                           data-key="be3139">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank rank3">3</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>14</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA5NzIwMjQzMA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="828" data-key="3f199d">北美留学生日报</span><em>collegedaily</em></span>
+                    </td>
+
+                    <td>
+                        54
+                    </td>
+                    <td>251.7万</td>
+                    <td>10万+</td>
+
+
+                    <td>8273</td>
+                    <td>97</td>
+                    <td>5</td>
+                    <td class="tb-xigua-index">1359.8</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="828"
+                           data-key="3f199d">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">4</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-down"><i
+                                class="down"></i>3</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MjM5ODAzNTc2NA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="15384" data-key="9cf561">呦呦鹿鸣</span><em>youyouluming99</em></span>
+                    </td>
+
+                    <td>
+                        297
+                    </td>
+                    <td>571.41万</td>
+                    <td>10万+</td>
+
+
+                    <td>8036</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td class="tb-xigua-index">1350.7</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="15384"
+                           data-key="9cf561">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">5</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-down"><i
+                                class="down"></i>1</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzU5MzcyMzc2OQ==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="4116239" data-key="3df173">远方青木</span><em>YFqingmu</em></span>
+                    </td>
+
+                    <td>
+                        416
+                    </td>
+                    <td>889.14万</td>
+                    <td>10万+</td>
+
+
+                    <td>7901</td>
+                    <td>67</td>
+                    <td>6</td>
+                    <td class="tb-xigua-index">1317.6</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="4116239"
+                           data-key="3df173">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">6</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-"><i class=""></i>--</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA5MDgzOTkzMg==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="550849" data-key="e24a8c">昆仑策研究院</span><em>kunlunceyanjiuyuan</em></span>
+                    </td>
+
+                    <td>
+                        202
+                    </td>
+                    <td>12.14万</td>
+                    <td>10万+</td>
+
+
+                    <td>4799</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td class="tb-xigua-index">1162.3</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="550849"
+                           data-key="e24a8c">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">7</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-"><i class=""></i>--</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzI1OTM5OTY0Mw==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="3306553" data-key="e902d0">天涯时事</span><em>a045166383</em></span>
+                    </td>
+
+                    <td>
+                        534
+                    </td>
+                    <td>546.34万</td>
+                    <td>93656</td>
+
+
+                    <td>3012</td>
+                    <td>26</td>
+                    <td>2</td>
+                    <td class="tb-xigua-index">1088.1</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="3306553"
+                           data-key="e902d0">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">8</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-"><i class=""></i>--</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzIxNjQ0OTIzNQ==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="2894047" data-key="139a08">超级学爸</span><em>chinasuperdad</em></span>
+                    </td>
+
+                    <td>
+                        445
+                    </td>
+                    <td>419.27万</td>
+                    <td>88623</td>
+
+
+                    <td>2517</td>
+                    <td>70</td>
+                    <td>1</td>
+                    <td class="tb-xigua-index">1085.0</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="2894047"
+                           data-key="139a08">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">9</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>4</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA4OTk1MjA0MA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="1992603" data-key="c7f80e">后沙</span><em>HSYGLGJ</em></span>
+                    </td>
+
+                    <td>
+                        613
+                    </td>
+                    <td>340.42万</td>
+                    <td>65104</td>
+
+
+                    <td>2355</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td class="tb-xigua-index">1074.5</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="1992603"
+                           data-key="c7f80e">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">10</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-"><i class=""></i>--</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzIzNTA4ODM0Ng==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="1912469" data-key="283f40">环球视角观察</span><em>df009417</em></span>
+                    </td>
+
+                    <td>
+                        27
+                    </td>
+                    <td>33.35万</td>
+                    <td>10万+</td>
+
+
+                    <td>3494</td>
+                    <td>77</td>
+                    <td>8</td>
+                    <td class="tb-xigua-index">1074.4</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="1912469"
+                           data-key="283f40">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">11</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>9</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA5MzUwNjUzMA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="43169" data-key="e83f47">广东共青团</span><em>tuan_tuanjun</em></span>
+                    </td>
+
+                    <td>
+                        1181
+                    </td>
+                    <td>241.16万</td>
+                    <td>10万+</td>
+
+
+                    <td>2766</td>
+                    <td>79</td>
+                    <td>4</td>
+                    <td class="tb-xigua-index">1043.4</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="43169"
+                           data-key="e83f47">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">12</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-"><i class=""></i>--</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzAwMzU1ODAwOQ==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="1404296" data-key="73fae8">政事堂2019</span><em>zhengshitang2019</em></span>
+                    </td>
+
+                    <td>
+                        417
+                    </td>
+                    <td>296.58万</td>
+                    <td>10万+</td>
+
+
+                    <td>2146</td>
+                    <td>40</td>
+                    <td>2</td>
+                    <td class="tb-xigua-index">1042.3</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="1404296"
+                           data-key="73fae8">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">13</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>211</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzU4NTg5OTk2Mg==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="4235726" data-key="c707a5">警魂</span><em>police-spirit</em></span>
+                    </td>
+
+                    <td>
+                        387
+                    </td>
+                    <td>75.66万</td>
+                    <td>85261</td>
+
+
+                    <td>2430</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td class="tb-xigua-index">1031.0</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="4235726"
+                           data-key="c707a5">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">14</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-"><i class=""></i>--</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA4OTUyMzU3NQ==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="3555779" data-key="1c2058">麦杰逊</span><em>wy-xcs</em></span>
+                    </td>
+
+                    <td>
+                        110
+                    </td>
+                    <td>36.08万</td>
+                    <td>63000</td>
+
+
+                    <td>1667</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td class="tb-xigua-index">1027.1</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="3555779"
+                           data-key="1c2058">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">15</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>44</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA3NTE5MzQzMA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="40310" data-key="1f2b87">共青团中央</span><em>gqtzy2014</em></span>
+                    </td>
+
+                    <td>
+                        599
+                    </td>
+                    <td>227.74万</td>
+                    <td>96169</td>
+
+
+                    <td>1730</td>
+                    <td>22</td>
+                    <td>14</td>
+                    <td class="tb-xigua-index">1020.7</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="40310"
+                           data-key="1f2b87">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">16</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>8</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MjM5NjQzMzcxNA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="18445" data-key="8a66f7">南风窗</span><em>SouthReviews</em></span>
+                    </td>
+
+                    <td>
+                        539
+                    </td>
+                    <td>146.33万</td>
+                    <td>78929</td>
+
+
+                    <td>610</td>
+                    <td>22</td>
+                    <td>7</td>
+                    <td class="tb-xigua-index">1014.6</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="18445"
+                           data-key="8a66f7">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">17</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>1</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MjM5MTM5NjUzNA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="178778" data-key="6e3bcb">河北共青团</span><em>HBGQT87903800</em></span>
+                    </td>
+
+                    <td>
+                        1177
+                    </td>
+                    <td>231.32万</td>
+                    <td>10万+</td>
+
+
+                    <td>1484</td>
+                    <td>21</td>
+                    <td>5</td>
+                    <td class="tb-xigua-index">1013.2</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="178778"
+                           data-key="6e3bcb">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">18</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>25</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA4OTQ5NTk2Mw==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="637181" data-key="ccf0c4">深圳本地宝</span><em>bdbshenzhen</em></span>
+                    </td>
+
+                    <td>
+                        614
+                    </td>
+                    <td>176.17万</td>
+                    <td>10万+</td>
+
+
+                    <td>2174</td>
+                    <td>49</td>
+                    <td>3</td>
+                    <td class="tb-xigua-index">1003.5</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="637181"
+                           data-key="ccf0c4">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">19</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>8</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MjM5NDA5NDcyMA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="4790" data-key="314086">Vista看天下</span><em>vistaweek</em></span>
+                    </td>
+
+                    <td>
+                        561
+                    </td>
+                    <td>231.07万</td>
+                    <td>10万+</td>
+
+
+                    <td>1573</td>
+                    <td>98</td>
+                    <td>5</td>
+                    <td class="tb-xigua-index">999.1</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="4790"
+                           data-key="314086">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">20</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-"><i class=""></i>--</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzIzNzQxNzA4Ng==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="3636979" data-key="1b522e">黔线</span><em>qx2968208906</em></span>
+                    </td>
+
+                    <td>
+                        247
+                    </td>
+                    <td>50.1万</td>
+                    <td>10万+</td>
+
+
+                    <td>1951</td>
+                    <td>57</td>
+                    <td>1</td>
+                    <td class="tb-xigua-index">998.6</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="3636979"
+                           data-key="1b522e">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">21</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>43</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MjM5OTU4Nzc0Mg==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="1531" data-key="b89693">半月谈</span><em>banyuetan-weixin</em></span>
+                    </td>
+
+                    <td>
+                        1189
+                    </td>
+                    <td>158.53万</td>
+                    <td>87618</td>
+
+
+                    <td>895</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td class="tb-xigua-index">993.3</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="1531"
+                           data-key="b89693">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">22</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>50</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzI1NTE5NTM0NA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="2146393" data-key="b8b6e0">西安本地宝</span><em>xianbdb</em></span>
+                    </td>
+
+                    <td>
+                        573
+                    </td>
+                    <td>154.47万</td>
+                    <td>10万+</td>
+
+
+                    <td>1252</td>
+                    <td>30</td>
+                    <td>5</td>
+                    <td class="tb-xigua-index">992.3</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="2146393"
+                           data-key="b8b6e0">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">23</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-"><i class=""></i>--</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzU5MjE0ODc1OQ==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="3972145" data-key="699a61">姆们的北京</span><em>loveBJguoan</em></span>
+                    </td>
+
+                    <td>
+                        61
+                    </td>
+                    <td>6.69万</td>
+                    <td>10万+</td>
+
+
+                    <td>3007</td>
+                    <td>18</td>
+                    <td>1</td>
+                    <td class="tb-xigua-index">989.5</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="3972145"
+                           data-key="699a61">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">24</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>32</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzU4NDc3MjIyMw==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="4106238" data-key="adb4d2">好奇心实验室</span><em>feizhengchang123</em></span>
+                    </td>
+
+                    <td>
+                        623
+                    </td>
+                    <td>200.42万</td>
+                    <td>71482</td>
+
+
+                    <td>1115</td>
+                    <td>21</td>
+                    <td>1</td>
+                    <td class="tb-xigua-index">984.2</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="4106238"
+                           data-key="adb4d2">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">25</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>280</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzU2NzY0NDIwOQ==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="4169852" data-key="ff08ba">印太观察</span><em>shishiruijian</em></span>
+                    </td>
+
+                    <td>
+                        33
+                    </td>
+                    <td>45.48万</td>
+                    <td>86351</td>
+
+
+                    <td>1635</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td class="tb-xigua-index">976.9</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="4169852"
+                           data-key="ff08ba">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">26</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>12</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA5Mzc1MzgzNQ==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="308" data-key="249f6b">新闻早餐</span><em>xinwenzaocan</em></span>
+                    </td>
+
+                    <td>
+                        569
+                    </td>
+                    <td>228.25万</td>
+                    <td>10万+</td>
+
+
+                    <td>3560</td>
+                    <td>85</td>
+                    <td>8</td>
+                    <td class="tb-xigua-index">962.0</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="308"
+                           data-key="249f6b">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">27</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-down"><i
+                                class="down"></i>8</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzI2NDQ2ODMzMA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="4279505" data-key="4b87f7">国家电网</span><em>SGCC_Online</em></span>
+                    </td>
+
+                    <td>
+                        16
+                    </td>
+                    <td>77.87万</td>
+                    <td>10万+</td>
+
+
+                    <td>2002</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td class="tb-xigua-index">959.4</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="4279505"
+                           data-key="4b87f7">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">28</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>5</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MjM5NjM2MjA4NA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="6284" data-key="1372e6">学习大国</span><em>xuexidaguo</em></span>
+                    </td>
+
+                    <td>
+                        547
+                    </td>
+                    <td>121.22万</td>
+                    <td>76747</td>
+
+
+                    <td>425</td>
+                    <td>11</td>
+                    <td>6</td>
+                    <td class="tb-xigua-index">958.7</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="6284"
+                           data-key="1372e6">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">29</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-up"><i class="up"></i>18</span>
+                        </div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzAxOTczODg4NA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="1622305" data-key="b90956">广州本地宝</span><em>bdbguangzhou</em></span>
+                    </td>
+
+                    <td>
+                        643
+                    </td>
+                    <td>157.05万</td>
+                    <td>10万+</td>
+
+
+                    <td>796</td>
+                    <td>87</td>
+                    <td>3</td>
+                    <td class="tb-xigua-index">958.5</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="1622305"
+                           data-key="b90956">详情</a></td>
+                </tr>
+                <tr>
+                    <td class="text-left">
+                        <span class="rank ">30</span>
+                        <div class="rank-trend-box"><span class="rank-trend rank-trend-"><i class=""></i>--</span></div>
+                    </td>
+                    <td class="person-publicnum text-left">
+                        <img src="//cdnlogo.xiguaji.com/BizLogo/MzA5MjIxOTYxMA==.jpg-BizLogoCut">
+                        <span><span class="js-rank-detail-btn" data-bizid="54053" data-key="f4543b">青春北京</span><em>qingchunbeijing54</em></span>
+                    </td>
+
+                    <td>
+                        631
+                    </td>
+                    <td>152.19万</td>
+                    <td>10万+</td>
+
+
+                    <td>1141</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td class="tb-xigua-index">958.1</td>
+                    <td><a href="javascript:;" class="btn btn-detail js-rank-detail-btn" data-bizid="54053"
+                           data-key="f4543b">详情</a></td>
+                </tr>
+
+
+                </tbody>
+            </table>
+            <div class="footer">
+                <div class="footer-tip">
+                    您当前的会员等级可以查看前三十名，您可以 <a href="#/Purchase"> 购买或升级会员 </a> 查看更多
+                </div>
+                <div class="load-more"></div>
+                <input type="hidden" name="pageIndex" value="1"/>
+                <input type="hidden" name="request-ing" value="0"/>
+                <input type="hidden" name="tid" value="17"/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="corporate-account-layer search-detail" style="display: none" id="modal_container">
+</div>
+<div class="corporate-account-layer" style="display:none; z-index:10000" id="modal_collect_edit_container">
+</div>
+<div class="corporate-account-layer search-detail-collect" style="display:none; z-index:10001"
+     id="modal_container_collectdetail">
+</div>
+
+
+<!--版本升级提示-->
+
+
+<script>
+
+
+    var CurrCategoryId = 17;
+    var Expanded = '';
+
+    //行业分类
+    var industryCategory = {
+        //点击一级分类
+        clickLv1: function (obj) {
+            var $obj = $(obj);
+            $obj.addClass('active').siblings().removeClass('active');
+            var categoryId = $obj.data('categoryid');
+            $('div[data-pcid]').hide();
+            $('div[data-pcid=' + categoryId + ']').show();
+            if ($('div[data-pcid=' + categoryId + ']').length == 0) {
+                $('.js-category2').hide();
+            } else {
+                $('.js-category2').show();
+            }
+            $('a[subcategory]').removeClass('active');//移除二级分类选中状态.
+
+            $("input[name='pageIndex']").val("0");
+            $("input[name='tid']").val(categoryId);
+            MenuTriggerGetAjaxContent(1);
+        },
+        //点击二级分类
+        clickLv2: function (obj) {
+            var $obj = $(obj);
+            $obj.addClass('active').siblings().removeClass('active');
+            var categoryId = $obj.data("categoryid");
+            $("input[name='pageIndex']").val("0");
+            $("input[name='tid']").val(categoryId);
+            MenuTriggerGetAjaxContent(1);
+        }
+    }
+
+    $(function () {
+
+
+        $("#result-export").click(function () {
+
+            var level = 0;
+            if (level === 0) {
+                XiguaPublic.modalAlert('高级以上会员、豪华会员、专业版可导出，请<a href="#/Purchase" class="js-know-btn"><span class="up-grade-user">升级版本</span></a>');
+                return;
+            }
+            var newWindow = window.open("", "_blank");
+            if (!exportUrl.endsWith("IndustryNew")) {
+                newWindow.location.href = exportUrl + "&isExport=1";
+            } else {
+                newWindow.location.href = exportUrl + "?isExport=1";
+            }
+        });
+
+
+        // 滚动条下拉刷新事件
+        $(".d-main").scroll(function () {
+            var scrollHight = $(this)[0].scrollHeight;
+            var scrollTop = $(this)[0].scrollTop;
+            var divHigh = $(".d-main").height();
+            var index = $("input[name='pageIndex']").val();
+            if (scrollTop + divHigh >= scrollHight - 60 && index != undefined) {
+                GetAjaxContent();
+            }
+        });
+        // 定义地区高度
+        // $('.city-type').css('height', (window.innerHeight - 234) + 'px');
+        // 下拉框样式
+        var timeSelect = $('[data-select]').select2({minimumResultsForSearch: -1});
+
+        $(".js-detail-group").click(function () {
+            var categoryId = $(this).parent().data("categoryid");
+            $("input[name='pageIndex']").val("0");
+            $("input[name='tid']").val(categoryId);
+
+            var that = $(this);
+            that.parent().siblings().removeClass("active expanded");
+            that.parent().parent().find("li").removeClass("active"); //干掉所有的包含子节点的
+            that.parent().addClass("active expanded");
+
+            //debugger;
+            if (that.next().length > 0) {
+                that.parent().parent().find("ul").hide();
+                debugger;
+                if (that.find("i").hasClass("fa-angle-down")) {
+                    that.parent().parent().find("i").removeClass("fa-angle-up").addClass("fa-angle-down");
+                    that.find("i").removeClass("fa-angle-down").addClass("fa-angle-up");
+                    that.next().show();
+                } else {
+                    that.parent().parent().find("i").removeClass("fa-angle-up").addClass("fa-angle-down");
+                    that.next().hide();
+                }
+            } else {
+                that.parent().parent().find("ul").hide();
+                that.parent().parent().find("i").removeClass("fa-angle-up").addClass("fa-angle-down");
+            }
+
+            if (that.parent().hasClass("active")) {
+                //载入数据 //底层判断了，这里就不判断重复访问了
+                MenuTriggerGetAjaxContent(1);
+            }
+
+        });
+
+        $(".js-detail-child").click(function () {
+            debugger;
+            $(this).parent().find("li").removeClass("active");
+            $(this).addClass("active");
+            var categoryId = $(this).data("categoryid");
+            $("input[name='pageIndex']").val("0");
+            $("input[name='tid']").val(categoryId);
+            MenuTriggerGetAjaxContent(1);
+        });
+
+        $("i.fa-angle-up").click(function (e) {
+
+        });
+
+        $(".biz-search").click(function () {
+
+            //公众号搜索
+            var keyword = $("input[name='searchkeyword']").val();
+            if (keyword === "") {
+                return;
+            }
+
+            //rank不要写成Rank:原因见home目录index页面goHash方法.
+            location.hash = '#/Rank/SearchIndustryBizResult?key=' + keyword + '&PageIndex=' + 1;
+
+        });
+
+
+        $(document).keyup(function (event) {
+            if (event.keyCode == 13) {
+                $(".biz-search").trigger("click");
+            }
+        });
+    });
+
+    function RankPeriodTrigger(period) {
+        var tid = $("input[name='tid']").val();
+        location.hash = "#/Rank/IndustryNew?Period=" + period + "&tid=" + tid;
+    }
+
+    var exportUrl = decodeURIComponent('http%3a%2f%2fdata.xiguaji.com%2frank%2fIndustryNew');
+
+
+    function MenuTriggerGetAjaxContent(askIndex) {
+        //debugger;
+        console.log("MenuTriggerGetAjaxContent");
+        $(".d-main")[0].scrollTop = 0;
+        var level = 0;
+        //2019-5-30之前买的高级会员并且还没过期
+        var isUseForAdvance = 'True' == 'False' ? false : true;
+
+        /*
+        if ($('.footer-tip').text().indexOf('没有更多') >= 0) {
+            return;
+        }*/
+
+        if ($("input[name='request-ing']").val() === '1')
+            return;
+        var legalCount = level === 3 ? 8 : level === 2 ? 4 : 2;
+        if (level == 2) {
+            legalCount = isUseForAdvance ? 4 : 2;
+        } else if (level == 3) {
+            legalCount = 8;
+        } else if (level == 4) {
+            legalCount = 20;
+        } else {
+            legalCount = 2;
+        }
+        if (level === 0) {
+            legalCount = 1;
+        }
+        // var askIndex = parseInt($("input[name='pageIndex']").val()) + 1;
+        if (askIndex > legalCount) {
+            $(".load-more").html("");
+            if (level === 0) {
+                $(".footer-tip").html("您当前的会员等级可以查看前三十名，您可以<span style=\"color: #3b99d9\"><a href=\"#/Purchase\">购买或升级会员</a></span>查看更多");
+            } else if (level === 1) {
+                $(".footer-tip").html("您当前的会员等级可以查看前五十名，您可以<span style=\"color: #3b99d9\"><a href=\"#/Purchase\">购买或升级会员</a></span>查看更多");
+            } else if (level === 2) {
+                var topNum = isUseForAdvance ? "一百" : "五十";
+                $(".footer-tip").html("高级会员可以查看前" + topNum + "名，您可以<span style=\"color: #3b99d9\"><a href=\"#/Purchase\">购买或升级会员</a></span>查看更多");
+            } else if (level === 3) {
+                //$(".footer-tip").html("您当前的会员等级可以查看前两百名，如果您有更多数据需求，请联系<span style=\"color: #3b99d9\"><a href=\"tencent://message/?uin=37895465&Site=&Menu=yes\">定制服务</a></span>客服");
+                $(".footer-tip").html("豪华会员可以查看前两百名，您可以升级为<span style=\"color: #3b99d9\"><a href=\"#/Purchase\">专业版</a></span>查看更多");
+            } else if (level === 4) {
+                $(".footer-tip").html("您当前的会员等级可以查看前五百名，如果您有更多数据需求，请联系<span style=\"color: #3b99d9\"><a href=\"tencent://message/?uin=37895465&Site=&Menu=yes\">定制服务</a></span>客服");
+            }
+            return;
+        }
+        if (level == 0 || level === 1 || level === 2 || level === 3 || level === 4) {
+            debugger;
+            var tid = $("input[name='tid']").val();
+            var date = $('#IndustryRankDate').val();
+            var $url = "/rank/IndustryNew/?tid=" + tid + "&pageIndex=" + askIndex + "&isPart=true" + "&period=" + 1 + "&statDateCode=" + 20200614 + "&menuClick=true";
+
+            if (tid == CurrCategoryId) {
+                return;
+            }
+
+            CurrCategoryId = tid;
+
+            console.log($url);
+
+            // 开始请求
+            $(".footer-tip").text('');
+
+            $("tbody").html("");
+            $(".load-more").html("<i class=\"load\"></i>正在加载"); // 显示加载
+            $("input[name='request-ing']").val(1); // 设置请求中状态, 防止二次加载
+            $.ajax({
+                url: $url,
+                success: function (data) {
+                    if (data.status === 0) {
+                        $(".footer-tip").text(data.msg);
+                    } else {
+                        exportUrl = $url;
+                        $("tbody").html(data);
+                    }
+                    ;
+                    $(".load-more").html("");
+                    // 请求结束
+                    $("input[name='pageIndex']").val(askIndex);
+                    $("input[name='request-ing']").val(0);
+                    // 重新绑定事件
+                    bindDetailEvent();
+                }
+            });
+        }
+        return;
+    }
+
+    // ajax获取最新内容
+    function GetAjaxContent() {
+        console.log("GetAjaxContent");
+        var level = 0;
+        //2019-5-30之前买的高级会员并且还没过期
+        var isUseForAdvance = 'True' == 'False' ? false : true;
+        if ($('.footer-tip').text().indexOf('没有更多') >= 0) {
+            return;
+        }
+        if ($("input[name='request-ing']").val() === '1')
+            return;
+        var legalCount = level === 3 ? 8 : level === 2 ? 4 : 2;
+        debugger;
+        if (level == 2) {
+            legalCount = isUseForAdvance ? 4 : 2;
+        } else if (level == 3) {
+            legalCount = 8;
+        } else if (level == 4) {
+            legalCount = 20;
+        } else {
+            legalCount = 2;
+        }
+
+        if (level === 0) {
+            legalCount = 1;
+        }
+
+        var askIndex = parseInt($("input[name='pageIndex']").val()) + 1;
+        if (askIndex > legalCount) {
+            $(".load-more").html("");
+            if (level === 0) {
+                $(".footer-tip").html("免费会员可以查看前三十名，您可以<span style=\"color: #3b99d9\"><a href=\"#/Purchase\">购买或升级会员</a></span>查看更多");
+            } else if (level === 1) {
+                $(".footer-tip").html("基础会员可以查看前五十名，您可以<span style=\"color: #3b99d9\"><a href=\"#/Purchase\">购买或升级会员</a></span>查看更多");
+            } else if (level === 2) {
+                var topNum = isUseForAdvance ? "一百" : "五十";
+                $(".footer-tip").html("高级会员可以查看前" + topNum + "名，您可以<span style=\"color: #3b99d9\"><a href=\"#/Purchase\">购买或升级会员</a></span>查看更多");
+            } else if (level === 3) {
+                $(".footer-tip").html("豪华会员可以查看前两百名，您可以升级为<span style=\"color: #3b99d9\"><a href=\"#/Purchase\">专业版</a></span>查看更多");
+            } else if (level === 4) {
+                $(".footer-tip").html("专业版可以查看前五百名，如果您有更多数据需求，请联系<span style=\"color: #3b99d9\"><a href=\"tencent://message/?uin=37895465&Site=&Menu=yes\">定制服务</a></span>客服");
+            }
+            return;
+        }
+        if (level == 0 || level === 1 || level === 2 || level === 3 || level === 4) {
+            var tid = $("input[name='tid']").val();
+            var date = $('#IndustryRankDate').val();
+            var $url = "/rank/IndustryNew/?tid=" + tid + "&pageIndex=" + askIndex + "&isPart=true" + "&period=" + 1 + "&statDateCode=" + 20200614;
+
+            console.log($url);
+
+            // 开始请求
+            $(".footer-tip").text('');
+            $(".load-more").html("<i class=\"load\"></i>正在加载"); // 显示加载
+            debugger;
+            $("input[name='request-ing']").val(1); // 设置请求中状态, 防止二次加载
+            $.ajax({
+                url: $url,
+                success: function (data) {
+                    if (data.status === 0) {
+                        $(".footer-tip").text(data.msg);
+                    } else {
+                        $("tbody").append(data);
+                    }
+                    ;
+                    $(".load-more").html("");
+                    // 请求结束
+                    $("input[name='pageIndex']").val(askIndex);
+                    $("input[name='request-ing']").val(0);
+                    // 重新绑定事件
+                    bindDetailEvent();
+                }
+            });
+        }
+        return;
+    }
+
+    $('#IndustryRankDate').change(function () {
+        var date = $('#IndustryRankDate').val();
+
+        //var tid = $('.city-type .active a').data('tid');
+        //var tid = $(".city-type li.active").data("categoryid");
+        var tid = $("input[name='tid']").val();
+        location.hash = '#/Rank/IndustryNew?tid=' + tid + '&Period=' + 1 + '&StatDateCode=' + date;
+    });
+</script>
+
+<script type="text/javascript">
+    $(function () {
+        var fnAnimate = function () {
+            if ($('.d-main').scrollTop() > 0) {
+
+                $('.table-thead').addClass('theadScroll');
+            } else {
+                $('.table-thead').removeClass('theadScroll');
+            }
+        };
+        $('.d-main').scroll(fnAnimate);
+        fnAnimate();
+    });
+</script>
+<script src="/Content/js/bootstrap.min.js"></script>
+<script src="/Content/js/xigua.bizlist.js"></script>
+<script>
+    bindDetailEvent();
+    // 点击关闭详情
+    $(".search-detail").click(function (e) {
+        if ($(".search-detail").is(e.target)) {
+            $(".search-detail").hide();
+            $(".search-detail").html("");
+        }
+    });
+
+    function bindDetailEvent() {
+        // 点击显示详情
+        $(".js-rank-detail-btn").unbind().click(function () {
+            ShowBizDetail($(this), '.search-detail');
+        });
+    }
+
+    setToolTips();
+</script>
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?91a409c98f787c8181d5bb8ee9c535ba";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+<script type="text/javascript" src="//s.union.360.cn/194035.js" async defer></script>

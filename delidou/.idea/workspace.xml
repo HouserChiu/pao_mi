@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="088dc1cc-0e30-4fe8-bae6-22b6bf72474e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ct4x5VVHIfU3xgm6Z5P7X0gceq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dou_chacha" />
+  </component>
+  <component name="RunManager" selected="Python.dld_spider">
+    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="delidou" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dld_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="delidou" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dld_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dld_spider" />
+        <item itemvalue="Python.ceshi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="088dc1cc-0e30-4fe8-bae6-22b6bf72474e" name="Default Changelist" comment="" />
+      <created>1591334798139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591334798139</updated>
+      <workItem from="1591334804202" duration="2573000" />
+      <workItem from="1591839654522" duration="12044000" />
+      <workItem from="1592272540159" duration="1422000" />
+      <workItem from="1592450375186" duration="103000" />
+      <workItem from="1593323879119" duration="49000" />
+      <workItem from="1593324268476" duration="17000" />
+      <workItem from="1594007625309" duration="15000" />
+      <workItem from="1597828723861" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="101" y="551" key="FileChooserDialogImpl" timestamp="1597828739746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="101" y="551" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597828739746" />
+    <state width="1132" height="336" key="GridCell.Tab.0.bottom" timestamp="1591854845679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1132" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591854845679" />
+    <state width="1132" height="336" key="GridCell.Tab.0.center" timestamp="1591854845678">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1132" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591854845678" />
+    <state width="1132" height="336" key="GridCell.Tab.0.left" timestamp="1591854845678">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1132" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591854845678" />
+    <state width="1132" height="336" key="GridCell.Tab.0.right" timestamp="1591854845678">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1132" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591854845678" />
+    <state width="1132" height="336" key="GridCell.Tab.1.bottom" timestamp="1591854845679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1132" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591854845679" />
+    <state width="1132" height="336" key="GridCell.Tab.1.center" timestamp="1591854845679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1132" height="336" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591854845679" />
+    <state width="1132" height="336" key="GridCell.Tab.1.left" timestamp="1591854845679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1132" height="336" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591854845679" />
+    <state width="1132" height="336" key="GridCell.Tab.1.right" timestamp="1591854845679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1132" height="336" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591854845679" />
+    <state x="519" y="328" width="1118" height="497" key="dock-window-1" timestamp="1592272552364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="519" y="328" width="1118" height="497" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1592272552364" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ceshi.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ceshi.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ceshi.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/delidou$dld_spider.coverage" NAME="dld_spider Coverage Results" MODIFIED="1591854682718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/delidou$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1591854554985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

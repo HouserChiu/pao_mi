@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4bf2f82-cdd0-4c98-8331-bed6309dce46" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="luowang" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ctABRyfkirGRaZDWF6BnHj2YBr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gx_huo_yuan" />
+  </component>
+  <component name="RunManager" selected="Python.ceshi">
+    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="luowang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="luowang_spider (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="luowang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/luowang_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="luowang_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="luowang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../luowang_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lw_headers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="luowang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lw_headers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lw_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="luowang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lw_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ceshi" />
+        <item itemvalue="Python.lw_spider" />
+        <item itemvalue="Python.luowang_spider (1)" />
+        <item itemvalue="Python.lw_headers" />
+        <item itemvalue="Python.luowang_spider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4bf2f82-cdd0-4c98-8331-bed6309dce46" name="Default Changelist" comment="" />
+      <created>1591337379074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591337379074</updated>
+      <workItem from="1591337382155" duration="18002000" />
+      <workItem from="1591578320531" duration="53476000" />
+      <workItem from="1591750848669" duration="11250000" />
+      <workItem from="1591854035642" duration="723000" />
+      <workItem from="1591857191180" duration="2849000" />
+      <workItem from="1592198965193" duration="1687000" />
+      <workItem from="1592209594996" duration="563000" />
+      <workItem from="1592372695870" duration="1388000" />
+      <workItem from="1592446016362" duration="9489000" />
+      <workItem from="1592529734083" duration="2250000" />
+      <workItem from="1592556166625" duration="2665000" />
+      <workItem from="1592788508248" duration="125000" />
+      <workItem from="1592808571088" duration="1287000" />
+      <workItem from="1592814318372" duration="640000" />
+      <workItem from="1592874064386" duration="1965000" />
+      <workItem from="1592976131347" duration="3589000" />
+      <workItem from="1593314939537" duration="3914000" />
+      <workItem from="1593324052061" duration="25000" />
+      <workItem from="1593324751638" duration="1012000" />
+      <workItem from="1593592303594" duration="738000" />
+      <workItem from="1593593764308" duration="2410000" />
+      <workItem from="1593657242938" duration="1252000" />
+      <workItem from="1593676308235" duration="616000" />
+      <workItem from="1594007730908" duration="16000" />
+      <workItem from="1594642179825" duration="38000" />
+      <workItem from="1596111259836" duration="75000" />
+      <workItem from="1597827520948" duration="2228000" />
+      <workItem from="1597904336374" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="299" key="FileChooserDialogImpl" timestamp="1597904358802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="430" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597904358802" />
+    <state width="1371" height="163" key="GridCell.Tab.0.bottom" timestamp="1593598163102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1371" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593598163102" />
+    <state width="1371" height="163" key="GridCell.Tab.0.center" timestamp="1593598163102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1371" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593598163102" />
+    <state width="1371" height="163" key="GridCell.Tab.0.left" timestamp="1593598163102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1371" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593598163102" />
+    <state width="1371" height="163" key="GridCell.Tab.0.right" timestamp="1593598163102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1371" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593598163102" />
+    <state width="1371" height="136" key="GridCell.Tab.1.bottom" timestamp="1591785493029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1371" height="136" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591785493029" />
+    <state width="1371" height="136" key="GridCell.Tab.1.center" timestamp="1591785493029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1371" height="136" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591785493029" />
+    <state width="1371" height="136" key="GridCell.Tab.1.left" timestamp="1591785493029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1371" height="136" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591785493029" />
+    <state width="1371" height="136" key="GridCell.Tab.1.right" timestamp="1591785493029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1371" height="136" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591785493029" />
+    <state width="636" height="523" key="XDebugger.FullValuePopup" timestamp="1591349700781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="636" height="523" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1591349700781" />
+    <state x="509" y="217" width="1179" height="651" key="dock-window-1" timestamp="1593597868081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="509" y="217" width="1179" height="651" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1593597868081" />
+    <state x="1141" y="435" width="662" height="685" key="dock-window-2" timestamp="1591584902259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1141" y="435" width="662" height="685" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1591584902259" />
+    <state x="280" y="310" width="1293" height="573" key="dock-window-3" timestamp="1591691340309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="280" y="310" width="1293" height="573" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1591691340309" />
+    <state x="486" y="298" width="879" height="726" key="dock-window-4" timestamp="1591750857054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="486" y="298" width="879" height="726" key="dock-window-4/0.0.1920.1040@0.0.1920.1040" timestamp="1591750857054" />
+    <state x="55" y="61" width="879" height="726" key="dock-window-5" timestamp="1591693154691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="55" y="61" width="879" height="726" key="dock-window-5/0.0.1920.1040@0.0.1920.1040" timestamp="1591693154691" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lw_spider.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lw_spider.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lw_spider.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/luowang$luowang_spider.coverage" NAME="luowang_spider Coverage Results" MODIFIED="1591580510350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/luowang$lw_spider.coverage" NAME="lw_spider Coverage Results" MODIFIED="1591772440189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/luowang$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1593594381635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/luowang$lw_headers.coverage" NAME="lw_headers Coverage Results" MODIFIED="1591682266455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/luowang$luowang_spider__1_.coverage" NAME="luowang_spider (1) Coverage Results" MODIFIED="1591690739404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

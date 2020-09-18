@@ -1,0 +1,19 @@
+# coding: utf-8
+
+import os
+import re
+import time
+from handle_template import format_html
+from info_mongoimport import mongo_info_alibaba
+from lxml import etree
+from headers_lists import get_headers3, get_headers4, get_headers5, get_headers7, get_headers8, get_headers9, get_headers11
+from params_lists import get_params2, get_params3, get_params4
+import requests
+import json
+import urllib.parse
+import urllib3
+
+url = 'https://dj.1688.com/ci_bb?a=1923980011&e=lAG-AAzlwOsUaTpZjJ16uzysGfgiPdCGznc8lxNj34GE78gq37QZz7eqnGWUmWh03sLDFALx9QABiYu8uNqj7k.-mXVYZTkKC7pweePwvxXJAH5D-y.1.M-1omwCs9MWgXfCUV5fJOxZ6es5M-yIyVaw3u9tLWLbFlxvFroRca9CsIEq-t2YAMtylY7adRJU92kC.yZpBxYFPyAkdnylcUMq.ggBO7XRpyfFgQ8t4UK.0UDzTsXJfHl7Aa3Rd2LkmIQiN8IbVBtlqp6imHFZz7kwGSM7MSgNatSNuO-NIOhKVSNkrfZBGvc.K7fFYeVx0KdzQaamASVUap55vQnE5wDxwQK7xHkWtNVNc1n-XvQaoi8grnABg9GaCVc1R9.HAOhct7foY3gYgD77GCHAmDRB9KM5s2KMQYGe8pIMTqohKU-YPJDEWWzAk9ihFiPwXwA.Hww2n.nwfA99vOkKs0W54NXOZfuvgSKh2sNZe-A1X2uKEjae9qyaAnneA.iMDzMFIxs1UOXZcfSg3p3TqDyLVIw-5GvoWhkQpsRtBd-ye25DwrYmRvGE1nJsIVnCHwFYwLc4ly.g0s9QMP8cgBpGplGkrJdvXwb0xRqAgcbVCF0B-JlP9p85k58lLB4qHrGBttlA-pG4UQ5biM9wot64Ks1SvawoBrEpp4jjxwtgmfioW7dCyXNAs7QxXVlkEmTHb4dNh1rcQTVhvKYroZFm.8NNSEzvYQ.xfgFFYAbfvsCf.Sl-nnYMvgv4QKDD3wR.09cpujKnN.dwDI98HFxcI4wDFOSnIcIqxH9pgAzUHeYnIZ5BlhtpAfbejhLaCCGsCHTxYJy.-UTr62SkpQ3tCCyo0-vpCiA8m27oNwmSlzoZfuYothm5Ye9rmOUJIDZKaZk-8tom0OoyuyCKBe6.xgZeviNJ&v=4&ap=1&rp=1'
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+res = requests.get(url, headers=get_headers3(), verify=False).text
+print(res)

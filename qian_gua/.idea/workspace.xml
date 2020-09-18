@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0ae3f27-60a1-4a3c-8643-9c4fcf20d896" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bfCusZ31onFj2yLkyvQxyGkAiS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wei_dian" />
+  </component>
+  <component name="RunManager" selected="Python.spider">
+    <configuration name="ceshi (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qian_gua" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qian_gua" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qian_gua" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qian_gua" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.spider" />
+        <item itemvalue="Python.ceshi (1)" />
+        <item itemvalue="Python.web_spider" />
+        <item itemvalue="Python.ceshi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0ae3f27-60a1-4a3c-8643-9c4fcf20d896" name="Default Changelist" comment="" />
+      <created>1589013986411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589013986411</updated>
+      <workItem from="1589013989487" duration="3366000" />
+      <workItem from="1589163987226" duration="77000" />
+      <workItem from="1589164306121" duration="744000" />
+      <workItem from="1589336066659" duration="4090000" />
+      <workItem from="1589419131402" duration="1004000" />
+      <workItem from="1589420155129" duration="25257000" />
+      <workItem from="1589506422269" duration="13142000" />
+      <workItem from="1589526765903" duration="1086000" />
+      <workItem from="1589530323922" duration="927000" />
+      <workItem from="1589532080995" duration="2669000" />
+      <workItem from="1589764305418" duration="956000" />
+      <workItem from="1589952597151" duration="2214000" />
+      <workItem from="1590023417799" duration="706000" />
+      <workItem from="1590028523355" duration="13763000" />
+      <workItem from="1590113866778" duration="24000" />
+      <workItem from="1590376823442" duration="161000" />
+      <workItem from="1591061799205" duration="15131000" />
+      <workItem from="1591096325278" duration="18000" />
+      <workItem from="1591096377127" duration="21000" />
+      <workItem from="1591146749405" duration="3342000" />
+      <workItem from="1591241166679" duration="1601000" />
+      <workItem from="1591263096660" duration="2974000" />
+      <workItem from="1591326078067" duration="7965000" />
+      <workItem from="1591668691628" duration="66000" />
+      <workItem from="1591777905708" duration="1798000" />
+      <workItem from="1591838677916" duration="599000" />
+      <workItem from="1591938988048" duration="7236000" />
+      <workItem from="1592183345834" duration="874000" />
+      <workItem from="1592192068866" duration="282000" />
+      <workItem from="1592269919571" duration="4815000" />
+      <workItem from="1593324136635" duration="19000" />
+      <workItem from="1594007813552" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="649" y="352" key="FileChooserDialogImpl" timestamp="1594007842276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="352" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594007842276" />
+    <state width="1386" height="189" key="GridCell.Tab.0.bottom" timestamp="1592290154567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1386" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592290154567" />
+    <state width="1386" height="189" key="GridCell.Tab.0.center" timestamp="1592290154567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1386" height="189" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592290154567" />
+    <state width="1386" height="189" key="GridCell.Tab.0.left" timestamp="1592290154567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1386" height="189" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592290154567" />
+    <state width="1386" height="189" key="GridCell.Tab.0.right" timestamp="1592290154567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1386" height="189" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592290154567" />
+    <state width="1218" height="259" key="GridCell.Tab.1.bottom" timestamp="1589452729131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1218" height="259" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589452729131" />
+    <state width="1218" height="259" key="GridCell.Tab.1.center" timestamp="1589452729131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1218" height="259" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589452729131" />
+    <state width="1218" height="259" key="GridCell.Tab.1.left" timestamp="1589452729131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1218" height="259" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589452729131" />
+    <state width="1218" height="259" key="GridCell.Tab.1.right" timestamp="1589452729131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1218" height="259" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589452729131" />
+    <state x="418" y="397" key="com.intellij.ide.util.TipDialog" timestamp="1589764700256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="418" y="397" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589764700256" />
+    <state x="185" y="190" width="1204" height="626" key="dock-window-1" timestamp="1589506460215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="185" y="190" width="1204" height="626" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1589506460215" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qian_gua$ceshi__1_.coverage" NAME="ceshi (1) Coverage Results" MODIFIED="1591241571232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qian_gua$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1589512507783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/qian_gua$spider.coverage" NAME="spider Coverage Results" MODIFIED="1592271040541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qian_gua$web_spider.coverage" NAME="web_spider Coverage Results" MODIFIED="1589517904072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="243fa010-471b-43dc-be0d-dfe91fce9d23" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bbTcle1XMpH3mTWzPKvFFDw1yE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.chan_ma_ma">
+    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chan_ma_ma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chan_ma_ma" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chan_ma_ma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/chan_ma_ma.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chan_ma_ma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/fda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.chan_ma_ma" />
+        <item itemvalue="Python.fda" />
+        <item itemvalue="Python.ceshi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="243fa010-471b-43dc-be0d-dfe91fce9d23" name="Default Changelist" comment="" />
+      <created>1588899874390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588899874390</updated>
+      <workItem from="1588899878093" duration="382000" />
+      <workItem from="1588907144561" duration="3828000" />
+      <workItem from="1588914311009" duration="7098000" />
+      <workItem from="1588922465566" duration="14275000" />
+      <workItem from="1588985831403" duration="14033000" />
+      <workItem from="1589168120603" duration="10030000" />
+      <workItem from="1589246724206" duration="7000" />
+      <workItem from="1589419773028" duration="358000" />
+      <workItem from="1589420629583" duration="89000" />
+      <workItem from="1589508594239" duration="355000" />
+      <workItem from="1589511568058" duration="3220000" />
+      <workItem from="1589955789017" duration="3661000" />
+      <workItem from="1590023046029" duration="370000" />
+      <workItem from="1590031859574" duration="2777000" />
+      <workItem from="1590109799028" duration="1041000" />
+      <workItem from="1590376652423" duration="119000" />
+      <workItem from="1591009296521" duration="1270000" />
+      <workItem from="1591060246461" duration="15039000" />
+      <workItem from="1591238697505" duration="922000" />
+      <workItem from="1591342828410" duration="629000" />
+      <workItem from="1597734232445" duration="254000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1191" y="369" key="FileChooserDialogImpl" timestamp="1591261235860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1191" y="369" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591261235860" />
+    <state width="1464" height="208" key="GridCell.Tab.0.bottom" timestamp="1591096302238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1464" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591096302238" />
+    <state width="1464" height="208" key="GridCell.Tab.0.center" timestamp="1591096302238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1464" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591096302238" />
+    <state width="1464" height="208" key="GridCell.Tab.0.left" timestamp="1591096302238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1464" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591096302238" />
+    <state width="1464" height="208" key="GridCell.Tab.0.right" timestamp="1591096302238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1464" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591096302238" />
+    <state width="1877" height="222" key="GridCell.Tab.1.bottom" timestamp="1588936758224">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588936758224" />
+    <state width="1877" height="222" key="GridCell.Tab.1.center" timestamp="1588936758224">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588936758224" />
+    <state width="1877" height="222" key="GridCell.Tab.1.left" timestamp="1588936758224">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588936758224" />
+    <state width="1877" height="222" key="GridCell.Tab.1.right" timestamp="1588936758224">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588936758224" />
+    <state x="787" y="214" key="SettingsEditor" timestamp="1588899891952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="787" y="214" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588899891952" />
+    <state x="711" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1590109824469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="378" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590109824469" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/chan_ma_ma$chan_ma_ma.coverage" NAME="chan_ma_ma Coverage Results" MODIFIED="1591085763647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/chan_ma_ma$fda.coverage" NAME="fda Coverage Results" MODIFIED="1589001572591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/chan_ma_ma$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1588929281053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+  </component>
+</project>

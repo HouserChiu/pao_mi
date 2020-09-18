@@ -1,0 +1,476 @@
+
+
+
+<div class="data-content">
+
+    <div class="sub-tab_nav">
+        <ul id="selTab_Fan">
+            <li class="active" data-tab="fanspersona_FansDataAnalysis" id="js-tab-fanspersona_FansDataAnalysis"><a href="javascript:void(0);">粉丝画像</a></li>
+            <li data-tab="fanslike_FansDataAnalysis" id="js-tab-fanslike_FansDataAnalysis"><a href="javascript:void(0);">粉丝兴趣分布</a></li>
+            <li data-tab="fanstrend_FansDataAnalysis" id="js-tab-fanstrend_FansDataAnalysis"><a href="javascript:void(0);">粉丝活跃趋势</a></li>
+            <li data-tab="fansregis_FansDataAnalysis" id="js-tab-regis_FansDataAnalysis"><a href="javascript:void(0);">粉丝重合度</a></li>
+
+        </ul>
+    </div>
+    <div class="sub-tabpanel">
+        <!-- 粉丝画像 start-->
+        <div class="sub-tabpanel-block" id="fanspersona_FansDataAnalysis" data-isload="1">
+            <div class="load-container js-loading-container" style="display: none;">
+                <div class="line-scale">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>努力为您加载中...</p>
+            </div>
+                <div class="container-fluid">
+                    <div class="row row-col-2">
+                            <div class="col-sm-6 col-left">
+
+
+<div class="data-section gender-section pt20">
+    <div class="section-title">
+        性别分布
+    </div>
+    <div class="section-content">
+        <div class="row gender-icons">
+            <div class="col-sm-6 nopadding">
+                <img src="/Content/images/video/male.png" alt="">
+            </div>
+            <div class="col-sm-6 nopadding text-right">
+                <img src="/Content/images/video/female.png" alt="">
+            </div>
+        </div>
+        <div class="scale">
+            <div class="scale-male" style="width: 57.94%;"></div>
+        </div>
+        <div class="row gender-text">
+            <div class="col-sm-6 nopadding">
+                男
+                <br>57.94%
+            </div>
+            <div class="col-sm-6 nopadding text-right">
+                女
+                <br>42.06%
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="data-section location-section pt20">
+    <div class="section-title">
+        地域分布
+        <div class="filter" id="liveAreaFilter">
+            <a href="javascript:void(0);" class="active" >省份</a> | <a href="javascript:void(0);">城市</a>
+        </div>
+    </div>
+    <div class="section-content">
+
+            <table class="location-table js-area-blogger">
+                <thead>
+                    <tr>
+                        <td>名称</td>
+                        <td>占比</td>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>甘肃</td>
+                            <td>41.71%</td>
+                        </tr>
+                        <tr>
+                            <td>宁夏</td>
+                            <td>8.74%</td>
+                        </tr>
+                        <tr>
+                            <td>陕西</td>
+                            <td>6.57%</td>
+                        </tr>
+                        <tr>
+                            <td>内蒙古</td>
+                            <td>4.27%</td>
+                        </tr>
+                        <tr>
+                            <td>河北</td>
+                            <td>4.13%</td>
+                        </tr>
+                        <tr>
+                            <td>山东</td>
+                            <td>3.34%</td>
+                        </tr>
+                        <tr>
+                            <td>北京</td>
+                            <td>3.34%</td>
+                        </tr>
+                        <tr>
+                            <td>山西</td>
+                            <td>3.22%</td>
+                        </tr>
+                        <tr>
+                            <td>辽宁</td>
+                            <td>2.73%</td>
+                        </tr>
+                        <tr>
+                            <td>新疆</td>
+                            <td>2.72%</td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="location-table js-area-blogger" style="display:none;">
+                <thead>
+                    <tr>
+                        <td>名称</td>
+                        <td>占比</td>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>庆阳</td>
+                            <td>35.03%</td>
+                        </tr>
+                        <tr>
+                            <td>银川</td>
+                            <td>3.89%</td>
+                        </tr>
+                        <tr>
+                            <td>兰州</td>
+                            <td>3.87%</td>
+                        </tr>
+                        <tr>
+                            <td>北京</td>
+                            <td>3.76%</td>
+                        </tr>
+                        <tr>
+                            <td>平凉</td>
+                            <td>2.77%</td>
+                        </tr>
+                        <tr>
+                            <td>固原</td>
+                            <td>2.61%</td>
+                        </tr>
+                        <tr>
+                            <td>西安</td>
+                            <td>2.28%</td>
+                        </tr>
+                        <tr>
+                            <td>吴忠</td>
+                            <td>2.19%</td>
+                        </tr>
+                        <tr>
+                            <td>榆林</td>
+                            <td>2.14%</td>
+                        </tr>
+                        <tr>
+                            <td>定西</td>
+                            <td>2.10%</td>
+                        </tr>
+                </tbody>
+            </table>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('#liveAreaFilter a').click(function () {
+        $(this).siblings('a').removeClass('active');
+        $(this).addClass('active');
+        var index = $(this).index();
+        $('table.js-area-blogger').hide();
+        $('table.js-area-blogger:eq(' + index + ')').show();
+    })
+</script>
+                            </div>
+                            <div class="col-sm-6 col-right">
+
+<div class="data-section age-section pt20">
+    <div class="section-title">
+        年龄分布
+    </div>
+    <div class="age-chart" id="chart_age">
+    </div>
+
+</div>
+
+<script type="text/javascript">
+    var age_data = [{"item":"6-17","count":252,"age":6},{"item":"18-24","count":1174,"age":18},{"item":"25-30","count":2290,"age":25},{"item":"31-35","count":2287,"age":31},{"item":"36-40","count":1464,"age":36},{"item":"41+","count":2534,"age":41}];
+
+    var _DataSet = DataSet,
+        DataView = _DataSet.DataView;
+
+    var dv = new DataView();
+    dv.source(age_data).transform({
+        type: 'percent',
+        field: 'count',
+        dimension: 'item',
+        as: 'percent'
+    });
+    var chart_age = new G2.Chart({
+        forceFit: true,
+        container: 'chart_age',
+        animate: false,
+        height: 300,
+        width: $("#chart_age").width()+20,
+    });
+    chart_age.source(dv);
+
+    chart_age.coord('theta', {
+        radius: 0.9,
+        innerRadius: 0.7
+    });
+
+    chart_age.tooltip({
+        showTitle: false,
+        itemTpl: '<li><span style="background-color:{color};" class="g2-tooltip-marker"></span>{name}: {value}</li>'
+    });
+
+    chart_age.legend(false);
+
+    var interval = chart_age.intervalStack().position('percent').color('item', function (cValue) {
+        if (cValue == '6-17') {
+            return '#F78002';
+        }
+        if (cValue == '18-24') {
+            return '#FFA940';
+        }
+        if (cValue == '25-30') {
+            return '#FFC069';
+        }
+        if (cValue == '31-35') {
+            return '#FFD591';
+        }
+        if (cValue == '36-40') {
+            return '#FFE7BB';
+        }
+        return '#FFF8E5';
+
+    }).label('percent', {
+        formatter: function formatter(val, item) {
+            return item.point.item;
+        }
+    }).tooltip('item*percent', function (item, percent) {
+        percent = (percent * 100).toFixed(2) + '%';
+        return {
+            name: item,
+            value: percent
+        };
+        });
+    //chart_age.color('item', ['#daf7c0', '#b8eb93', '#97de6a', '#76d147', '#57c42c','#3d9e1e'])
+    chart_age.render();
+</script>
+
+
+
+<div class="data-section zodiac-section pt20">
+    <div class="section-title">
+        星座分布
+    </div>
+    <div class="section-content">
+        <ul>
+
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-capricorn
+"></span>摩羯座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 90.91%"></div>
+                    </div>
+                    <div class="zodiac-percent">14.19%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-libra
+"></span>天秤座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 58.74%"></div>
+                    </div>
+                    <div class="zodiac-percent">9.17%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-aquarius
+"></span>水瓶座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 57.45%"></div>
+                    </div>
+                    <div class="zodiac-percent">8.97%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-scorpio
+"></span>天蝎座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 56.07%"></div>
+                    </div>
+                    <div class="zodiac-percent">8.75%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-pisces
+"></span>双鱼座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 54.51%"></div>
+                    </div>
+                    <div class="zodiac-percent">8.51%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-sagittarius
+"></span>射手座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 52.44%"></div>
+                    </div>
+                    <div class="zodiac-percent">8.19%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-taurus
+"></span>金牛座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 49.22%"></div>
+                    </div>
+                    <div class="zodiac-percent">7.69%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-virgo
+"></span>处女座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 47.52%"></div>
+                    </div>
+                    <div class="zodiac-percent">7.42%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-leo
+"></span>狮子座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 46.88%"></div>
+                    </div>
+                    <div class="zodiac-percent">7.32%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-Aries
+"></span>白羊座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 46.05%"></div>
+                    </div>
+                    <div class="zodiac-percent">7.19%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-cancer
+"></span>巨蟹座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 40.44%"></div>
+                    </div>
+                    <div class="zodiac-percent">6.32%</div>
+                </li>
+                <li>
+                    <div class="zodiac-name"><span class="icon          icon-gemini
+"></span>双子座</div>
+                    <div class="zodiac-scale">
+                        <div class="scale-inner" style="width: 40.22%"></div>
+                    </div>
+                    <div class="zodiac-percent">6.28%</div>
+                </li>
+        </ul>
+    </div>
+</div>
+                            </div>
+                    </div>
+                </div>
+        </div>
+        <!-- 粉丝画像 end-->
+        <!-- 粉丝活跃趋势 start-->
+        <div class="sub-tabpanel-block" id="fanstrend_FansDataAnalysis" data-isload="0">
+            <div class="load-container js-loading-container" style="display: none;">
+                <div class="line-scale">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>努力为您加载中...</p>
+            </div>
+        </div>
+        <!-- 粉丝活跃趋势 end-->
+        <!-- 粉丝兴趣分布 start-->
+        <div class="sub-tabpanel-block" id="fanslike_FansDataAnalysis" data-isload="0">
+            <div class="load-container js-loading-container" style="display: none;">
+                <div class="line-scale">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>努力为您加载中...</p>
+            </div>
+        </div>
+        <!--  粉丝兴趣分布 end-->
+        <!-- 粉丝重合度 start-->
+        <div class="sub-tabpanel-block" id="fansregis_FansDataAnalysis" data-isload="0">
+            <div class="load-container js-loading-container" style="display: none;">
+                <div class="line-scale">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>努力为您加载中...</p>
+            </div>
+        </div>
+        <!-- 粉丝重合度 end-->
+        <!-- 礼物分析 start-->
+
+        <!-- 礼物分析 end-->
+    </div>
+    <script>
+        $("#selTab_Fan li").unbind().click(function () {
+            $(this).siblings().removeClass('active');
+            $(this).addClass('active');
+            var tab = $(this).data("tab");
+            var $tab = $("#" + tab);
+            $tab.siblings().removeAttr("style");
+            $tab.siblings().attr("style", "display:none;");
+            $tab.removeAttr("style");
+            $tab.attr("style", "display:''");
+            var parames = {};
+            if (tab == "fanstrend_FansDataAnalysis") {
+                var isload = parseInt($tab.data("isload"));
+                parames.bloggerUserId = '213801412';
+                var url = '/Blogger/TrendAnalysis';
+                if (isload == 0) {
+                    $tab.find(".js-loading-container").show();
+                    $.post(url, parames, function (data) {
+                        $tab.append(data);
+                        $tab.find(".js-loading-container").hide();
+                        $tab.data("isload", "1");
+                    });
+                }
+            }
+            else if (tab == "fansregis_FansDataAnalysis") {
+                var isload = parseInt($tab.data("isload"));
+                var url = '/Blogger/GetActFanAnalysis?bloggerUserId=213801412';
+                if (isload == 0) {
+                    $tab.find(".js-loading-container").show();
+                    $.post(url, parames, function (data) {
+                        $tab.append(data);
+                        $tab.find(".js-loading-container").hide();
+                        $tab.data("isload", "1");
+                    });
+                }
+            }
+             else if (tab == "fanslike_FansDataAnalysis") {
+                var isload = parseInt($tab.data("isload"));
+                parames.bloggerUserId = '213801412';
+                var url = '/Blogger/FansLikeAnalysis';
+                if (isload == 0) {
+                    $tab.find(".js-loading-container").show();
+                    $.post(url, parames, function (data) {
+                        $tab.append(data);
+                        $tab.find(".js-loading-container").hide();
+                        $tab.data("isload", "1");
+                    });
+                }
+            }
+
+        });
+
+    </script>
+</div>

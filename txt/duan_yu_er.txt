@@ -1,0 +1,74 @@
+'Host': 'xcx.meizhuahuyu.com',
+'Connection': 'keep-alive',
+'d2': '2769422977',
+'charset': 'utf-8',
+'content-type': 'application/json',
+'d3': '1128936755',
+'version': '106',
+'d1': '8918198184',
+'d4': '3836621004',
+'Content-Length': '0',
+'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.1; 1605-A01 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.82 Mobile Safari/537.36 MicroMessenger/7.0.10.1580(0x27000A32) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64',
+'type': '2',
+'d5': '1931540229',
+'Accept-Encoding': 'gzip',
+'Referer': 'https://servicewechat.com/wxb282b72c05107453/7/page-frame.html',
+
+GET https://xcx.meizhuahuyu.com/douyin/xcx/userfans/data/10171?token=e026301d9868594388d384d3ca9f2084&toPageCode=54&date=0 HTTP/1.1
+Host: xcx.meizhuahuyu.com
+Connection: keep-alive
+d2: 2769679704
+charset: utf-8
+content-type: application/json
+d3: 1129041408
+version: 106
+d1: 8918206360
+d4: 3836976660
+Content-Length: 0
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; 1605-A01 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.82 Mobile Safari/537.36 MicroMessenger/7.0.10.1580(0x27000A32) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64
+type: 2
+d5: 1931719284
+Accept-Encoding: gzip
+Referer: https://servicewechat.com/wxb282b72c05107453/7/page-frame.html
+
+GET https://xcx.meizhuahuyu.com/douyin/xcx/userfans/data/11145?token=e026301d9868594388d384d3ca9f2084&toPageCode=54&date=0 HTTP/1.1
+Host: xcx.meizhuahuyu.com
+Connection: keep-alive
+d2: 2769725422
+charset: utf-8
+content-type: application/json
+d3: 1129060044
+version: 106
+d1: 8918207816
+d4: 3837039996
+Content-Length: 0
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; 1605-A01 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.82 Mobile Safari/537.36 MicroMessenger/7.0.10.1580(0x27000A32) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64
+type: 2
+d5: 1931751170
+Accept-Encoding: gzip
+Referer: https://servicewechat.com/wxb282b72c05107453/7/page-frame.html
+
+
+
+GET https://xcx.meizhuahuyu.com/douyin/xcx/dyuser/details/10171?token=e026301d9868594388d384d3ca9f2084&toPageCode=54&date=1 HTTP/1.1
+Host: xcx.meizhuahuyu.com
+Connection: keep-alive
+d2: 2769679704
+charset: utf-8
+content-type: application/json
+d3: 1129041408
+version: 106
+d1: 8918206360
+d4: 3836976660
+Content-Length: 0
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; 1605-A01 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.82 Mobile Safari/537.36 MicroMessenger/7.0.10.1580(0x27000A32) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64
+type: 2
+d5: 1931719284
+Accept-Encoding: gzip
+Referer: https://servicewechat.com/wxb282b72c05107453/7/page-frame.html
+
+POST https://xcx.meizhuahuyu.com/douyin/xcx/userfans/curve?token=e026301d9868594388d384d3ca9f2084&toPageCode=54 HTTP/1.1
+
+
+
+https://xcx.meizhuahuyu.com/douyin/xcx/userfans/data/157235?token=e026301d9868594388d384d3ca9f2084&toPageCode=54&date=2

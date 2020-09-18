@@ -1,0 +1,4 @@
+inspeckage:
+1.雷电模拟器安装xposed，安装inspeckage模块，重启生效
+2.关闭fiddler，cmd运行adb forward tcp:8008 tcp:8008
+3.浏览器打开http://127.0.0.1:8008/

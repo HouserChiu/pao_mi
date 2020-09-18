@@ -1,0 +1,6 @@
+https://wxamp.zhigua.cn/v2/RankTmall
+
+https://wxamp.zhigua.cn/v2/RankMarket
+
+
+authorization: bearer BQJ0tFurkJhB6Zs-xCT56SLHWM8Z1obWDw_P1Ftx1GUkkceaZzpv2RkbJrWvfsgyi6GJLNkPumSXIMHA0-BfgvTYzH1n3NImY-dt85pwAKJOdwSx2vUmG82n-UeJ0dQ_Y_N9zRNvjD5z18CNRZeB1Q8y5vyCdecBMSNjW66H_orJKvcwJkKYPwF326YpatuoKp-7Vg
